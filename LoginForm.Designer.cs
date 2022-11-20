@@ -75,7 +75,7 @@
             this.Username.BackColor = System.Drawing.Color.Gainsboro;
             this.Username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Username.Font = new System.Drawing.Font("Inter", 16F);
-            this.Username.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Username.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Username.Location = new System.Drawing.Point(398, 309);
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(494, 26);
@@ -98,7 +98,7 @@
             this.Password.BackColor = System.Drawing.Color.Gainsboro;
             this.Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Password.Font = new System.Drawing.Font("Inter", 16F);
-            this.Password.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Password.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Password.Location = new System.Drawing.Point(398, 401);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(494, 26);
