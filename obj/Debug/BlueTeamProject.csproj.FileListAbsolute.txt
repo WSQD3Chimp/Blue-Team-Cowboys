@@ -1,0 +1,4 @@
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form1.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
