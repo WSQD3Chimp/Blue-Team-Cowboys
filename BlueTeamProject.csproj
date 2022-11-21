@@ -83,7 +83,6 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AccountCreation1Form.resx">
       <DependentUpon>AccountCreation1Form.cs</DependentUpon>
     </EmbeddedResource>

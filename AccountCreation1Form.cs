@@ -38,13 +38,21 @@ namespace BlueTeamProject
             else
             {
                 string password_hash = GetHash(password);
-                (new AccountCreation2Form(username, password_hash)).Show(); this.Close();
+                AccountCreation2Form next = new AccountCreation2Form(username, password_hash);
+                next.Show();
+                this.Hide();
             }
         }
 
         private void GoBackAccountCreation1_Click(object sender, EventArgs e)
         {
-            (new MainMenuForm()).Show(); this.Close();
+            this.Hide();
+            var MainMenuForm = new MainMenuForm();
+            MainMenuForm.FormClos    ed += (s, args) => this.Close(); 
+            MainMenuForm.Show(); 
+           // MainMenuForm menu = new MainMenuForm();
+           // menu.Show();
+           // this.Hide();
         }
 
         public static string GetHash(string inputString)
