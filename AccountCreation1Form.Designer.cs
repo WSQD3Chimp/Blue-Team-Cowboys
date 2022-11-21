@@ -46,7 +46,7 @@
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(470, 460);
@@ -55,6 +55,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GoBackAccountCreation1
             // 
@@ -63,7 +64,7 @@
             this.GoBackAccountCreation1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackAccountCreation1.FlatAppearance.BorderSize = 0;
             this.GoBackAccountCreation1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackAccountCreation1.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.GoBackAccountCreation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.GoBackAccountCreation1.ForeColor = System.Drawing.Color.White;
             this.GoBackAccountCreation1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackAccountCreation1.Location = new System.Drawing.Point(676, 460);
@@ -72,38 +73,39 @@
             this.GoBackAccountCreation1.TabIndex = 13;
             this.GoBackAccountCreation1.Text = "Go Back";
             this.GoBackAccountCreation1.UseVisualStyleBackColor = false;
+            this.GoBackAccountCreation1.Click += new System.EventHandler(this.GoBackAccountCreation1_Click);
             // 
             // UsernameCreation
             // 
             this.UsernameCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.UsernameCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.UsernameCreation.Font = new System.Drawing.Font("Inter", 16F);
+            this.UsernameCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.UsernameCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.UsernameCreation.Location = new System.Drawing.Point(388, 234);
             this.UsernameCreation.Name = "UsernameCreation";
-            this.UsernameCreation.Size = new System.Drawing.Size(494, 26);
+            this.UsernameCreation.Size = new System.Drawing.Size(494, 25);
             this.UsernameCreation.TabIndex = 12;
             this.UsernameCreation.Text = "Enter Username...";
             // 
             // LabelUsernameAccountCreation1
             // 
             this.LabelUsernameAccountCreation1.AutoSize = true;
-            this.LabelUsernameAccountCreation1.Font = new System.Drawing.Font("Inter", 14F);
+            this.LabelUsernameAccountCreation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.LabelUsernameAccountCreation1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.LabelUsernameAccountCreation1.Location = new System.Drawing.Point(383, 204);
             this.LabelUsernameAccountCreation1.Name = "LabelUsernameAccountCreation1";
-            this.LabelUsernameAccountCreation1.Size = new System.Drawing.Size(102, 23);
+            this.LabelUsernameAccountCreation1.Size = new System.Drawing.Size(97, 24);
             this.LabelUsernameAccountCreation1.TabIndex = 11;
             this.LabelUsernameAccountCreation1.Text = "Username";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Inter", 18F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(541, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 29);
+            this.label2.Size = new System.Drawing.Size(195, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "Account Creation";
             // 
@@ -111,22 +113,22 @@
             // 
             this.PasswordCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.PasswordCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PasswordCreation.Font = new System.Drawing.Font("Inter", 16F);
+            this.PasswordCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.PasswordCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.PasswordCreation.Location = new System.Drawing.Point(387, 313);
             this.PasswordCreation.Name = "PasswordCreation";
-            this.PasswordCreation.Size = new System.Drawing.Size(494, 26);
+            this.PasswordCreation.Size = new System.Drawing.Size(494, 25);
             this.PasswordCreation.TabIndex = 16;
             this.PasswordCreation.Text = "Enter Password...";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 14F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(382, 283);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 23);
+            this.label1.Size = new System.Drawing.Size(92, 24);
             this.label1.TabIndex = 15;
             this.label1.Text = "Password";
             // 
@@ -134,22 +136,22 @@
             // 
             this.PasswordConfirmCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.PasswordConfirmCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PasswordConfirmCreation.Font = new System.Drawing.Font("Inter", 16F);
+            this.PasswordConfirmCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.PasswordConfirmCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.PasswordConfirmCreation.Location = new System.Drawing.Point(387, 395);
             this.PasswordConfirmCreation.Name = "PasswordConfirmCreation";
-            this.PasswordConfirmCreation.Size = new System.Drawing.Size(494, 26);
+            this.PasswordConfirmCreation.Size = new System.Drawing.Size(494, 25);
             this.PasswordConfirmCreation.TabIndex = 18;
             this.PasswordConfirmCreation.Text = "Enter Password...";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Inter", 14F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(382, 365);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 23);
+            this.label3.Size = new System.Drawing.Size(162, 24);
             this.label3.TabIndex = 17;
             this.label3.Text = "Confirm Password";
             // 

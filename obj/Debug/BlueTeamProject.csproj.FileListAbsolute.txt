@@ -2,3 +2,9 @@ C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyRefer
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form1.resources
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AccountCreation2Form.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.MainMenuForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form2.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
