@@ -1,6 +1,6 @@
 ﻿namespace BlueTeamProject
 {
-    partial class Form2
+    partial class PasswordResetForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordResetForm));
             this.label2 = new System.Windows.Forms.Label();
             this.Username = new System.Windows.Forms.TextBox();
             this.LabelUsernamePassReset = new System.Windows.Forms.Label();

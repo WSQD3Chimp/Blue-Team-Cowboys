@@ -58,6 +58,7 @@
     <Compile Include="AccountCreation2Form.Designer.cs">
       <DependentUpon>AccountCreation2Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="HashClass.cs" />
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>

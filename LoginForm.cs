@@ -41,7 +41,21 @@ namespace BlueTeamProject
 
         private void label3_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var reset = new PasswordResetForm();
+            reset.FormClosed += (s, args) => this.Close();
+            reset.Show();
+        }
 
+        private void Login_Click(object sender, EventArgs e)
+        {
+            string password = Password.Text;
+            string password_hash = HashClass.GetHash(password);
+
+            this.Hide();
+            var loggedin = new MainMenuForm(true);
+            loggedin.FormClosed += (s, args) => this.Close();
+            loggedin.Show();
         }
     }
 }

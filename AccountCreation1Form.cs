@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -37,33 +36,21 @@ namespace BlueTeamProject
             }
             else
             {
-                string password_hash = GetHash(password);
-                AccountCreation2Form next = new AccountCreation2Form(username, password_hash);
-                next.Show();
+                string password_hash = HashClass.GetHash(password);
+
                 this.Hide();
+                var next = new AccountCreation2Form(username, password_hash);
+                next.FormClosed += (s, args) => this.Close();
+                next.Show();
             }
         }
 
         private void GoBackAccountCreation1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var MainMenuForm = new MainMenuForm();
-            MainMenuForm.FormClos    ed += (s, args) => this.Close(); 
-            MainMenuForm.Show(); 
-           // MainMenuForm menu = new MainMenuForm();
-           // menu.Show();
-           // this.Hide();
-        }
-
-        public static string GetHash(string inputString)
-        {
-         HashAlgorithm algorithm = MD5.Create();
-         byte[] hashes = algorithm.ComputeHash(Encoding.UTF8.GetBytes(inputString));
-
-         StringBuilder stringBuilder = new StringBuilder();
-
-         foreach (byte b in hashes) stringBuilder.Append(b.ToString("X2"));
-         return stringBuilder.ToString();
+            var MainMenuForm = new MainMenuForm(true);
+            MainMenuForm.FormClosed += (s, args) => this.Close();
+            MainMenuForm.Show();
         }
     }
 }
