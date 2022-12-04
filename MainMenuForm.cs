@@ -38,7 +38,8 @@ namespace BlueTeamProject
         }
         private void button2_Click(object sender, EventArgs e)
         {
-
+            DBConnect.insertUser();
+            DBConnect.view();
         }
 
         private void button3_Click(object sender, EventArgs e)

@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Account] (Table)
+       [dbo].[Item] (Table)
+       [dbo].[Part_Association] (Table)
+       [dbo].[Transaction] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Account] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Item] (Default Constraint)
+       [dbo].[FK_Parts_Machine] (Foreign Key)
+       [dbo].[FK_Parts_Part] (Foreign Key)
+
+** Supporting actions
+
+The compatibility level of the target schema 160 is not supported, which may result in undefined behavior. Please upgrade to a later version which supports this compatibility level.
+

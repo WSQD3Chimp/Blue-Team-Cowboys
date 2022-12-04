@@ -1,0 +1,5 @@
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\bin\Debug\Database.dacpac
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\bin\Debug\Database.dll
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\bin\Debug\Database.pdb
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\Database.dll
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\Database.pdb
