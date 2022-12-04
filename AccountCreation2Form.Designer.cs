@@ -43,22 +43,22 @@
             // 
             this.ColorCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.ColorCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ColorCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ColorCreation.Font = new System.Drawing.Font("Inter", 16F);
             this.ColorCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.ColorCreation.Location = new System.Drawing.Point(387, 417);
             this.ColorCreation.Name = "ColorCreation";
-            this.ColorCreation.Size = new System.Drawing.Size(494, 25);
+            this.ColorCreation.Size = new System.Drawing.Size(494, 26);
             this.ColorCreation.TabIndex = 27;
             this.ColorCreation.Text = "Enter Answer...";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label3.Font = new System.Drawing.Font("Inter", 14F);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(382, 387);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(245, 24);
+            this.label3.Size = new System.Drawing.Size(268, 23);
             this.label3.TabIndex = 26;
             this.label3.Text = "What is your favourite color?";
             // 
@@ -66,22 +66,22 @@
             // 
             this.MaidenNameCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.MaidenNameCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.MaidenNameCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.MaidenNameCreation.Font = new System.Drawing.Font("Inter", 16F);
             this.MaidenNameCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.MaidenNameCreation.Location = new System.Drawing.Point(387, 335);
             this.MaidenNameCreation.Name = "MaidenNameCreation";
-            this.MaidenNameCreation.Size = new System.Drawing.Size(494, 25);
+            this.MaidenNameCreation.Size = new System.Drawing.Size(494, 26);
             this.MaidenNameCreation.TabIndex = 25;
             this.MaidenNameCreation.Text = "Enter Answer...";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label1.Font = new System.Drawing.Font("Inter", 14F);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(382, 305);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 24);
+            this.label1.Size = new System.Drawing.Size(259, 23);
             this.label1.TabIndex = 24;
             this.label1.Text = "What is your maiden name?";
             // 
@@ -92,7 +92,7 @@
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button1.Font = new System.Drawing.Font("Inter", 14.25F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(432, 478);
@@ -101,7 +101,6 @@
             this.button1.TabIndex = 23;
             this.button1.Text = "Create Account";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GoBackAccountCreation1
             // 
@@ -110,7 +109,7 @@
             this.GoBackAccountCreation1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackAccountCreation1.FlatAppearance.BorderSize = 0;
             this.GoBackAccountCreation1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackAccountCreation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.GoBackAccountCreation1.Font = new System.Drawing.Font("Inter", 14.25F);
             this.GoBackAccountCreation1.ForeColor = System.Drawing.Color.White;
             this.GoBackAccountCreation1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackAccountCreation1.Location = new System.Drawing.Point(676, 478);
@@ -119,39 +118,38 @@
             this.GoBackAccountCreation1.TabIndex = 22;
             this.GoBackAccountCreation1.Text = "Go Back";
             this.GoBackAccountCreation1.UseVisualStyleBackColor = false;
-            this.GoBackAccountCreation1.Click += new System.EventHandler(this.GoBackAccountCreation1_Click);
             // 
             // CityCreation
             // 
             this.CityCreation.BackColor = System.Drawing.Color.Gainsboro;
             this.CityCreation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CityCreation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.CityCreation.Font = new System.Drawing.Font("Inter", 16F);
             this.CityCreation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.CityCreation.Location = new System.Drawing.Point(388, 256);
             this.CityCreation.Name = "CityCreation";
-            this.CityCreation.Size = new System.Drawing.Size(494, 25);
+            this.CityCreation.Size = new System.Drawing.Size(494, 26);
             this.CityCreation.TabIndex = 21;
             this.CityCreation.Text = "Enter Answer...";
             // 
             // CityAccountCreation2
             // 
             this.CityAccountCreation2.AutoSize = true;
-            this.CityAccountCreation2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.CityAccountCreation2.Font = new System.Drawing.Font("Inter", 14F);
             this.CityAccountCreation2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.CityAccountCreation2.Location = new System.Drawing.Point(383, 226);
             this.CityAccountCreation2.Name = "CityAccountCreation2";
-            this.CityAccountCreation2.Size = new System.Drawing.Size(242, 24);
+            this.CityAccountCreation2.Size = new System.Drawing.Size(260, 23);
             this.CityAccountCreation2.TabIndex = 20;
             this.CityAccountCreation2.Text = "What city were you born in?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label2.Font = new System.Drawing.Font("Inter", 18F);
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(518, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 29);
+            this.label2.Size = new System.Drawing.Size(228, 29);
             this.label2.TabIndex = 19;
             this.label2.Text = "Security Questions";
             // 

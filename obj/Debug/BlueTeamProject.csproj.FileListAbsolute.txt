@@ -1,10 +1,17 @@
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form1.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AccountCreation2Form.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.MainMenuForm.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form2.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
+E:\College\semester 4\sys dev\BlueTeamProject\bin\Debug\BlueTeamProject.exe.config
+E:\College\semester 4\sys dev\BlueTeamProject\bin\Debug\BlueTeamProject.exe
+E:\College\semester 4\sys dev\BlueTeamProject\bin\Debug\BlueTeamProject.pdb
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Form1.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Properties.Resources.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.CoreCompileInputs.cache
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.exe
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.pdb
+E:\College\semester 4\sys dev\BlueTeamProject\bin\Debug\aa-DJ\BlueTeamProject.resources.dll
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.MainMenuForm.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
+E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\aa-DJ\BlueTeamProject.resources.dll

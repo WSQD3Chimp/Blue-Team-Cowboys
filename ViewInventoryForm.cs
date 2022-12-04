@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace BlueTeamProject
 {
-    public partial class AccountCreation1Form : Form
+    public partial class ViewInventoryForm : Form
     {
-        public AccountCreation1Form()
+        public ViewInventoryForm()
         {
             InitializeComponent();
+        }
+
+        private void ViewInventoryPanel_Paint(object sender, PaintEventArgs e)
+        {
+            this.ViewInventoryPanel.AutoScroll = true;
+
         }
     }
 }

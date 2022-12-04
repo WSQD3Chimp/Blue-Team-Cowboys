@@ -117,79 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Inter, 18pt</value>
+  <data name="AddPartImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAABHRJREFUeF7t
+        2k9oHFUAx/FFaFXQHjz4BwpK0UMrSebNut3WSLo7Wwh68dSLCNKDeBfBPxfBkwjSk2B66q2wzJsNahJr
+        pGnTJrtTFRukENRmZnbDYmpjqME2aTZ5vokTqetsN7ll5vf7wYfkkiE77zu7OSTDcRzHcRzHcRzHcRzm
+        rpUP7fXOGs80KkYhcIwTDWm8lhRBRZQCmTvwy+izD0Yvh9vJfMc86EvxkTbuSXHVd4zZQIqfk0L/3ld9
+        aV7Sv/cn3nBvvlE++nD00rhuC2zzdX0Dx7QFraWpBLsZOGJSv4O90Sg//1j0ErlOCypmVj9B4/rGrbbd
+        yMTSr2ctfFfwZN9bjKDLAlu8p29as/0mpsSvjKDL9E06q6Xm6Y/BCO43zxYTviM2Ym5cmjCCTtN/8Vdj
+        blgaMYK4ebZRi7lZacUI2gcWQIgR3DvAAEKMYGugAYQYQTjgAEKMADyAEHYEDGATbgQM4F86AvPDQPYc
+        UCrzQHR70j8G8B9NX5plT2bfD/8fYq7Sd7gxnO3Z7Xx58Knvh7J7oiPd2RjA//ylNX3bmNVfvwvvz27n
+        O2LCc8QZHe2bXjn3ZHS029vmBeJvBCWJsxnuXCDF59dt47noeLuPAaTOki+ND35zeh+Pjvj+YwDp49ki
+        8Jy+k4uj+X3RMXceA0gr47M5KZ6OjrnzGEBqjV0v9/REx9x5DCC1fqhLIxcdc+cxgNSaaQxn89Exd96O
+        AnCEWhg5rJa+eVEtn39J3b4wQLvUnYsDf7amrSlVOz7yj9KQqlnvqMuloqrd88fhdgOoV0z1x7mjanXy
+        mGpNF9VG1VL6opQcy9q8cks/qmrpbf39E9sOIDz8W9/2q9ZUMe7ClDRuKdDvBidV7eV92wpgUT/5azz8
+        dKlaP+mPhle7BhA+/eFnykbcRSjJ1vU7wcddA2h+mVMr+nM/5gKUfJWuAdwYzau7lwtxP0xJ55audA3g
+        9zEGkGIzDAAbAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEA
+        cAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwD
+        AMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAx
+        AHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDACaa11gAMjc0pmMJ8XFuIPfsvj1EbU2VYy/ACWba72b8W3z
+        tD7o5faD33JrvF+tT1vxF6AEs6SqWqb+CDAH9UFPeba42374CyP51srksQ1VjbsAJdiMqhVfUROFhzI3
+        yoce8WW26Nvi00Aabr1i3lz4KtfQT35zdbKwsl7l058Kbqmuv57XT/4p5RYH1Wz/o5mtqaHsnnnZu79u
+        ixfmvzCtpXO5gTuXCgXlHh/cLIWS74o1oA++T9UK+9W1E3ujo+c4juM4juM4juM4DmaZzN8q/+ABKEsy
+        MQAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>541, 199</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 29</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Password Reset</value>
-  </data>
-  <data name="Username.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Inter, 16pt</value>
-  </data>
-  <data name="Username.Size" type="System.Drawing.Size, System.Drawing">
-    <value>494, 26</value>
-  </data>
-  <data name="Username.Text" xml:space="preserve">
-    <value>Enter Username...</value>
-  </data>
-  <data name="LabelUsernamePassReset.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelUsernamePassReset.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Inter, 14pt</value>
-  </data>
-  <data name="LabelUsernamePassReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 23</value>
-  </data>
-  <data name="LabelUsernamePassReset.Text" xml:space="preserve">
-    <value>Enter your username.</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GoBackForgotPassword.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="GoBackForgotPassword.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="GoBackForgotPassword.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Inter, 14.25pt</value>
-  </data>
-  <data name="GoBackForgotPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 48</value>
-  </data>
-  <data name="GoBackForgotPassword.Text" xml:space="preserve">
-    <value>Go Back</value>
-  </data>
-  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Inter, 14.25pt</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 48</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Continue</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 681</value>
+  <data name="AddPartImage.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAABHRJREFUeF7t
+        2k9oHFUAx/FFaFXQHjz4BwpK0UMrSebNut3WSLo7Wwh68dSLCNKDeBfBPxfBkwjSk2B66q2wzJsNahJr
+        pGnTJrtTFRukENRmZnbDYmpjqME2aTZ5vokTqetsN7ll5vf7wYfkkiE77zu7OSTDcRzHcRzHcRzHcRzm
+        rpUP7fXOGs80KkYhcIwTDWm8lhRBRZQCmTvwy+izD0Yvh9vJfMc86EvxkTbuSXHVd4zZQIqfk0L/3ld9
+        aV7Sv/cn3nBvvlE++nD00rhuC2zzdX0Dx7QFraWpBLsZOGJSv4O90Sg//1j0ErlOCypmVj9B4/rGrbbd
+        yMTSr2ctfFfwZN9bjKDLAlu8p29as/0mpsSvjKDL9E06q6Xm6Y/BCO43zxYTviM2Ym5cmjCCTtN/8Vdj
+        blgaMYK4ebZRi7lZacUI2gcWQIgR3DvAAEKMYGugAYQYQTjgAEKMADyAEHYEDGATbgQM4F86AvPDQPYc
+        UCrzQHR70j8G8B9NX5plT2bfD/8fYq7Sd7gxnO3Z7Xx58Knvh7J7oiPd2RjA//ylNX3bmNVfvwvvz27n
+        O2LCc8QZHe2bXjn3ZHS029vmBeJvBCWJsxnuXCDF59dt47noeLuPAaTOki+ND35zeh+Pjvj+YwDp49ki
+        8Jy+k4uj+X3RMXceA0gr47M5KZ6OjrnzGEBqjV0v9/REx9x5DCC1fqhLIxcdc+cxgNSaaQxn89Exd96O
+        AnCEWhg5rJa+eVEtn39J3b4wQLvUnYsDf7amrSlVOz7yj9KQqlnvqMuloqrd88fhdgOoV0z1x7mjanXy
+        mGpNF9VG1VL6opQcy9q8cks/qmrpbf39E9sOIDz8W9/2q9ZUMe7ClDRuKdDvBidV7eV92wpgUT/5azz8
+        dKlaP+mPhle7BhA+/eFnykbcRSjJ1vU7wcddA2h+mVMr+nM/5gKUfJWuAdwYzau7lwtxP0xJ55audA3g
+        9zEGkGIzDAAbAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEA
+        cAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwD
+        AMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAxAHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDAAcAwDHAMAx
+        AHAMABwDAMcAwDEAcAwAHAMAxwDAMQBwDACaa11gAMjc0pmMJ8XFuIPfsvj1EbU2VYy/ACWba72b8W3z
+        tD7o5faD33JrvF+tT1vxF6AEs6SqWqb+CDAH9UFPeba42374CyP51srksQ1VjbsAJdiMqhVfUROFhzI3
+        yoce8WW26Nvi00Aabr1i3lz4KtfQT35zdbKwsl7l058Kbqmuv57XT/4p5RYH1Wz/o5mtqaHsnnnZu79u
+        ixfmvzCtpXO5gTuXCgXlHh/cLIWS74o1oA++T9UK+9W1E3ujo+c4juM4juM4juM4DmaZzN8q/+ABKEsy
+        MQAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

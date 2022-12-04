@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BlueTeamProject
 {
-    public partial class AccountCreation1Form : Form
+    public partial class ViewPartsForm : Form
     {
-        public AccountCreation1Form()
+        public ViewPartsForm()
         {
             InitializeComponent();
         }
