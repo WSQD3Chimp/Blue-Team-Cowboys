@@ -8,13 +8,13 @@ namespace BlueTeamProject
 {
     internal class Item
     {
-        private int id { get; }
-        private string item_name { get; set; }
-        private float item_minimum { get; set; }
-        private float item_units { get; set; }
-        private float item_price { get; set; }
-        private string manufacturer { get; set; }
-        private string description { get; set;}
-        private byte isMachine { get; set; }
+        public int id { get; set; }
+        public string item_name { get; set; }
+        public float item_minimum { get; set; }
+        public float item_units { get; set; }
+        public float item_price { get; set; }
+        public string manufacturer { get; set; }
+        public string description { get; set;}
+        public byte isMachine { get; set; }
     }
 }
