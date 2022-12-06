@@ -14,3 +14,30 @@ C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.CoreCompileIn
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.exe
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.pdb
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\bin\Debug\BlueTeamProject.exe.config
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\bin\Debug\BlueTeamProject.exe
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\bin\Debug\BlueTeamProject.pdb
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\bin\Debug\aa-DJ\BlueTeamProject.resources.dll
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.AccountCreation2Form.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.AddItemForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.AddPartForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.EditCatalogueForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.MainMenuForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.PasswordResetForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.LoginForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.Properties.Resources.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.TransactionListForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.ViewInventoryForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.ViewItemForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.ViewPartsForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.ViewTransactionForm.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.PasswordResetForm.aa-DJ.resources
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.csproj.CoreCompileInputs.cache
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\aa-DJ\BlueTeamProject.resources.dll
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.exe
+D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.pdb
