@@ -5,7 +5,7 @@ using System.Data;
 
 namespace BlueTeamProject
 {
-    internal class DBConnect
+    internal class DBController
         {
         static string constr;
         static SqlConnection conn;
@@ -18,14 +18,56 @@ namespace BlueTeamProject
             Console.WriteLine(conn.State);
         }
 
-        public static void insertUser()
+        public static void insertUser(string username, string password_hash, string security1_hash, string security2_hash, string security3_hash, int isManager)
         {
             Connect();
             SqlCommand cmd;
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
 
-            sql = "insert into [dbo].[Account](username, password_hash, security1_hash, security2_hash, security3_hash, isManager) values('test', 'test', 'test', 'test', 'test', 1)";
+            sql = "insert into [dbo].[Account](username, password_hash, security1_hash, security2_hash, security3_hash, isManager) values('"+username+"', '"+password_hash+"', '"+security1_hash+"', '"+security2_hash+"', '"+security3_hash+"', "+isManager+")";
+            cmd = new SqlCommand(sql, conn);
+            adapter.InsertCommand = new SqlCommand(sql, conn);
+            adapter.InsertCommand.ExecuteNonQuery();
+            cmd.Dispose();
+            conn.Close();
+        }
+
+        public static User getUser(string username)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            User user = new User();
+            sql = "Select * from [dbo].[Account] where username like '" + username + "'";
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                user.account_id = reader.GetInt32(0);
+                user.username = reader.GetString(5);
+                user.password_hash = reader.GetString(1);
+                user.security1_hash = reader.GetString(2);
+                user.security2_hash = reader.GetString(3);
+                user.security3_hash = reader.GetString(4);
+                user.isManager = reader.GetInt32(6);
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return user;
+        }
+
+        public static void updatePassword(string username, string password_hash)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            string sql;
+
+            sql = "update [dbo].[Account] set password_hash='"+password_hash+"' where username='"+username+"'";
             cmd = new SqlCommand(sql, conn);
             adapter.InsertCommand = new SqlCommand(sql, conn);
             adapter.InsertCommand.ExecuteNonQuery();

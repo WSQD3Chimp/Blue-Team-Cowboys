@@ -34,10 +34,25 @@ namespace BlueTeamProject
         {
             string username = this.Username.Text;
 
-            this.Hide();
-            var reset = new ForgotPasswordForm(username);
-            reset.FormClosed += (s, args) => this.Close();
-            reset.Show();
+            User user = DBController.getUser(username);
+            if (this.Username.Text.Equals(""))
+            {
+                MessageBox.Show("No input in username field, please make sure the field is entered.", "Empty Field Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (user.password_hash == null)
+            {
+                this.Username.Text = "";
+                MessageBox.Show("User \""+username+"\" does not exist, please reinput your username.", "Incorrect username",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                this.Hide();
+                var reset = new ForgotPasswordForm(username);
+                reset.FormClosed += (s, args) => this.Close();
+                reset.Show();
+            }
         }
     }
 }

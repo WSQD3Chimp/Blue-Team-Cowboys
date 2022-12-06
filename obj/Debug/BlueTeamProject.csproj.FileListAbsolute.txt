@@ -1,4 +1,3 @@
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
@@ -8,12 +7,10 @@ C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.MainMenuForm.resourc
 C:\xampp\htdocs\Blue-Team-Cowboys\bin\Debug\BlueTeamProject.exe.config
 C:\xampp\htdocs\Blue-Team-Cowboys\bin\Debug\BlueTeamProject.exe
 C:\xampp\htdocs\Blue-Team-Cowboys\bin\Debug\BlueTeamProject.pdb
-C:\xampp\htdocs\Blue-Team-Cowboys\bin\Debug\aa-DJ\BlueTeamProject.resources.dll
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.PasswordResetForm.resources
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.LoginForm.resources
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.Properties.Resources.resources
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.PasswordResetForm.aa-DJ.resources
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.CoreCompileInputs.cache
-C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\aa-DJ\BlueTeamProject.resources.dll
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.exe
 C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.pdb
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache

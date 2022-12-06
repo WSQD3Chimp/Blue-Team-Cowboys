@@ -34,6 +34,13 @@ namespace BlueTeamProject
                 MessageBox.Show("Passwords do not match, please reinput the passwords.", "Password Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else if(DBController.getUser(username).password_hash != null){
+                UsernameCreation.Text = "";
+                PasswordCreation.Text = "";
+                PasswordConfirmCreation.Text = "";
+                MessageBox.Show("The username \""+username+"\" is already in use, please enter another username.", "Username Taken",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
                 string password_hash = HashClass.GetHash(password);

@@ -3,3 +3,7 @@ C:\xampp\htdocs\Blue-Team-Cowboys\Database\bin\Debug\Database.dll
 C:\xampp\htdocs\Blue-Team-Cowboys\Database\bin\Debug\Database.pdb
 C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\Database.dll
 C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\Database.pdb
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\Model.xml
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\refactor.xml
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\postdeploy.sql
+C:\xampp\htdocs\Blue-Team-Cowboys\Database\obj\Debug\predeploy.sql

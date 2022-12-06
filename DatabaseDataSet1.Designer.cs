@@ -20,9 +20,9 @@ namespace BlueTeamProject {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DatabaseDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("DatabaseDataSet1")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DatabaseDataSet : global::System.Data.DataSet {
+    public partial class DatabaseDataSet1 : global::System.Data.DataSet {
         
         private AccountDataTable tableAccount;
         
@@ -40,7 +40,7 @@ namespace BlueTeamProject {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public DatabaseDataSet() {
+        public DatabaseDataSet1() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -51,7 +51,7 @@ namespace BlueTeamProject {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected DatabaseDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected DatabaseDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -176,7 +176,7 @@ namespace BlueTeamProject {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DatabaseDataSet cln = ((DatabaseDataSet)(base.Clone()));
+            DatabaseDataSet1 cln = ((DatabaseDataSet1)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -277,9 +277,9 @@ namespace BlueTeamProject {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DatabaseDataSet";
+            this.DataSetName = "DatabaseDataSet1";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DatabaseDataSet.xsd";
+            this.Namespace = "http://tempuri.org/DatabaseDataSet1.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableAccount = new AccountDataTable();
@@ -335,7 +335,7 @@ namespace BlueTeamProject {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DatabaseDataSet ds = new DatabaseDataSet();
+            DatabaseDataSet1 ds = new DatabaseDataSet1();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -538,7 +538,7 @@ namespace BlueTeamProject {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public AccountRow AddAccountRow(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, bool isManager) {
+            public AccountRow AddAccountRow(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, int isManager) {
                 AccountRow rowAccountRow = ((AccountRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -601,7 +601,7 @@ namespace BlueTeamProject {
                 base.Columns.Add(this.columnsecurity3_hash);
                 this.columnusername = new global::System.Data.DataColumn("username", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnusername);
-                this.columnisManager = new global::System.Data.DataColumn("isManager", typeof(bool), null, global::System.Data.MappingType.Element);
+                this.columnisManager = new global::System.Data.DataColumn("isManager", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnisManager);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnaccountid}, true));
@@ -689,7 +689,7 @@ namespace BlueTeamProject {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DatabaseDataSet ds = new DatabaseDataSet();
+                DatabaseDataSet1 ds = new DatabaseDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1065,7 +1065,7 @@ namespace BlueTeamProject {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DatabaseDataSet ds = new DatabaseDataSet();
+                DatabaseDataSet1 ds = new DatabaseDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1345,7 +1345,7 @@ namespace BlueTeamProject {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DatabaseDataSet ds = new DatabaseDataSet();
+                DatabaseDataSet1 ds = new DatabaseDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1682,7 +1682,7 @@ namespace BlueTeamProject {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DatabaseDataSet ds = new DatabaseDataSet();
+                DatabaseDataSet1 ds = new DatabaseDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1823,9 +1823,9 @@ namespace BlueTeamProject {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool isManager {
+            public int isManager {
                 get {
-                    return ((bool)(this[this.tableAccount.isManagerColumn]));
+                    return ((int)(this[this.tableAccount.isManagerColumn]));
                 }
                 set {
                     this[this.tableAccount.isManagerColumn] = value;
@@ -2269,7 +2269,7 @@ namespace BlueTeamProject {
         }
     }
 }
-namespace BlueTeamProject.DatabaseDataSetTableAdapters {
+namespace BlueTeamProject.DatabaseDataSet1TableAdapters {
     
     
     /// <summary>
@@ -2411,7 +2411,7 @@ namespace BlueTeamProject.DatabaseDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_security2_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security2_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_security3_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security3_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_username", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "username", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_isManager", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_isManager", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Account] ([password_hash], [security1_hash], [security2_hash], [security3_hash], [username], [isManager]) VALUES (@password_hash, @security1_hash, @security2_hash, @security3_hash, @username, @isManager);
@@ -2422,7 +2422,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@security2_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security2_hash", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@security3_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security3_hash", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@username", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "username", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@isManager", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@isManager", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Account] SET [password_hash] = @password_hash, [security1_hash] = @security1_hash, [security2_hash] = @security2_hash, [security3_hash] = @security3_hash, [username] = @username, [isManager] = @isManager WHERE (([accountid] = @Original_accountid) AND ([password_hash] = @Original_password_hash) AND ([security1_hash] = @Original_security1_hash) AND ([security2_hash] = @Original_security2_hash) AND ([security3_hash] = @Original_security3_hash) AND ([username] = @Original_username) AND ([isManager] = @Original_isManager));
@@ -2433,14 +2433,14 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@security2_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security2_hash", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@security3_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security3_hash", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@username", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "username", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@isManager", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@isManager", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_accountid", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "accountid", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_password_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "password_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_security1_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security1_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_security2_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security2_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_security3_hash", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "security3_hash", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_username", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "username", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_isManager", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_isManager", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "isManager", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@accountid", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "accountid", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -2466,7 +2466,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DatabaseDataSet.AccountDataTable dataTable) {
+        public virtual int Fill(DatabaseDataSet1.AccountDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2479,9 +2479,9 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DatabaseDataSet.AccountDataTable GetData() {
+        public virtual DatabaseDataSet1.AccountDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DatabaseDataSet.AccountDataTable dataTable = new DatabaseDataSet.AccountDataTable();
+            DatabaseDataSet1.AccountDataTable dataTable = new DatabaseDataSet1.AccountDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2489,14 +2489,14 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet.AccountDataTable dataTable) {
+        public virtual int Update(DatabaseDataSet1.AccountDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet dataSet) {
+        public virtual int Update(DatabaseDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Account");
         }
         
@@ -2519,7 +2519,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, bool Original_isManager) {
+        public virtual int Delete(int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, int Original_isManager) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_accountid));
             if ((Original_password_hash == null)) {
                 throw new global::System.ArgumentNullException("Original_password_hash");
@@ -2551,7 +2551,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             else {
                 this.Adapter.DeleteCommand.Parameters[5].Value = ((string)(Original_username));
             }
-            this.Adapter.DeleteCommand.Parameters[6].Value = ((bool)(Original_isManager));
+            this.Adapter.DeleteCommand.Parameters[6].Value = ((int)(Original_isManager));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -2572,7 +2572,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, bool isManager) {
+        public virtual int Insert(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, int isManager) {
             if ((password_hash == null)) {
                 throw new global::System.ArgumentNullException("password_hash");
             }
@@ -2603,7 +2603,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             else {
                 this.Adapter.InsertCommand.Parameters[4].Value = ((string)(username));
             }
-            this.Adapter.InsertCommand.Parameters[5].Value = ((bool)(isManager));
+            this.Adapter.InsertCommand.Parameters[5].Value = ((int)(isManager));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -2624,7 +2624,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, bool isManager, int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, bool Original_isManager, int accountid) {
+        public virtual int Update(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, int isManager, int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, int Original_isManager, int accountid) {
             if ((password_hash == null)) {
                 throw new global::System.ArgumentNullException("password_hash");
             }
@@ -2655,7 +2655,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             else {
                 this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(username));
             }
-            this.Adapter.UpdateCommand.Parameters[5].Value = ((bool)(isManager));
+            this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(isManager));
             this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(Original_accountid));
             if ((Original_password_hash == null)) {
                 throw new global::System.ArgumentNullException("Original_password_hash");
@@ -2687,7 +2687,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
             else {
                 this.Adapter.UpdateCommand.Parameters[11].Value = ((string)(Original_username));
             }
-            this.Adapter.UpdateCommand.Parameters[12].Value = ((bool)(Original_isManager));
+            this.Adapter.UpdateCommand.Parameters[12].Value = ((int)(Original_isManager));
             this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(accountid));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -2709,7 +2709,7 @@ SELECT accountid, password_hash, security1_hash, security2_hash, security3_hash,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, bool isManager, int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, bool Original_isManager) {
+        public virtual int Update(string password_hash, string security1_hash, string security2_hash, string security3_hash, string username, int isManager, int Original_accountid, string Original_password_hash, string Original_security1_hash, string Original_security2_hash, string Original_security3_hash, string Original_username, int Original_isManager) {
             return this.Update(password_hash, security1_hash, security2_hash, security3_hash, username, isManager, Original_accountid, Original_password_hash, Original_security1_hash, Original_security2_hash, Original_security3_hash, Original_username, Original_isManager, Original_accountid);
         }
     }
@@ -2911,7 +2911,7 @@ SELECT item_id, item_minimum, item_units, unit_price, manufacturer, item_name, d
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DatabaseDataSet.ItemDataTable dataTable) {
+        public virtual int Fill(DatabaseDataSet1.ItemDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2924,9 +2924,9 @@ SELECT item_id, item_minimum, item_units, unit_price, manufacturer, item_name, d
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DatabaseDataSet.ItemDataTable GetData() {
+        public virtual DatabaseDataSet1.ItemDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DatabaseDataSet.ItemDataTable dataTable = new DatabaseDataSet.ItemDataTable();
+            DatabaseDataSet1.ItemDataTable dataTable = new DatabaseDataSet1.ItemDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2934,14 +2934,14 @@ SELECT item_id, item_minimum, item_units, unit_price, manufacturer, item_name, d
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet.ItemDataTable dataTable) {
+        public virtual int Update(DatabaseDataSet1.ItemDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet dataSet) {
+        public virtual int Update(DatabaseDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Item");
         }
         
@@ -3282,7 +3282,7 @@ SELECT machine_id, part_id FROM Part_Association WHERE (machine_id = @machine_id
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DatabaseDataSet.Part_AssociationDataTable dataTable) {
+        public virtual int Fill(DatabaseDataSet1.Part_AssociationDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3295,9 +3295,9 @@ SELECT machine_id, part_id FROM Part_Association WHERE (machine_id = @machine_id
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DatabaseDataSet.Part_AssociationDataTable GetData() {
+        public virtual DatabaseDataSet1.Part_AssociationDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DatabaseDataSet.Part_AssociationDataTable dataTable = new DatabaseDataSet.Part_AssociationDataTable();
+            DatabaseDataSet1.Part_AssociationDataTable dataTable = new DatabaseDataSet1.Part_AssociationDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3305,14 +3305,14 @@ SELECT machine_id, part_id FROM Part_Association WHERE (machine_id = @machine_id
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet.Part_AssociationDataTable dataTable) {
+        public virtual int Update(DatabaseDataSet1.Part_AssociationDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet dataSet) {
+        public virtual int Update(DatabaseDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Part_Association");
         }
         
@@ -3602,7 +3602,7 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DatabaseDataSet.TransactionsDataTable dataTable) {
+        public virtual int Fill(DatabaseDataSet1.TransactionsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3615,9 +3615,9 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DatabaseDataSet.TransactionsDataTable GetData() {
+        public virtual DatabaseDataSet1.TransactionsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DatabaseDataSet.TransactionsDataTable dataTable = new DatabaseDataSet.TransactionsDataTable();
+            DatabaseDataSet1.TransactionsDataTable dataTable = new DatabaseDataSet1.TransactionsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3625,14 +3625,14 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet.TransactionsDataTable dataTable) {
+        public virtual int Update(DatabaseDataSet1.TransactionsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DatabaseDataSet dataSet) {
+        public virtual int Update(DatabaseDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Transactions");
         }
         
@@ -3950,7 +3950,7 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(DatabaseDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(DatabaseDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._itemTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Item.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -3996,7 +3996,7 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(DatabaseDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(DatabaseDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._itemTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Item.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -4038,7 +4038,7 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(DatabaseDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(DatabaseDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._transactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Transactions.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -4104,7 +4104,7 @@ SELECT transaction_id, account_id, item_id, operation_type, unit_change, datetim
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(DatabaseDataSet dataSet) {
+        public virtual int UpdateAll(DatabaseDataSet1 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
