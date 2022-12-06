@@ -15,3 +15,30 @@ E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.MainMenu
 E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.resources
 E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
 E:\College\semester 4\sys dev\BlueTeamProject\obj\Debug\aa-DJ\BlueTeamProject.resources.dll
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\bin\Debug\BlueTeamProject.exe.config
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\bin\Debug\BlueTeamProject.exe
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\bin\Debug\BlueTeamProject.pdb
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\bin\Debug\aa-DJ\BlueTeamProject.resources.dll
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.AccountCreation2Form.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.AddItemForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.AddPartForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.EditCatalogueForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.MainMenuForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.Form1.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.Properties.Resources.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.TransactionListForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.ViewInventoryForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.ViewItemForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.ViewPartsForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.ViewTransactionForm.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.csproj.CoreCompileInputs.cache
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\aa-DJ\BlueTeamProject.resources.dll
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.exe
+D:\Download Kingpin\BlueTeamProject\BlueTeamProject\obj\Debug\BlueTeamProject.pdb

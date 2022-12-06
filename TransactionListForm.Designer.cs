@@ -32,7 +32,6 @@
             this.ExportTransaction = new System.Windows.Forms.Button();
             this.ViewTransaction = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.PanelTransactionList = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.QueryTransactionList = new System.Windows.Forms.TextBox();
             this.FilterDate = new System.Windows.Forms.Button();
@@ -40,6 +39,7 @@
             this.FilterOperation = new System.Windows.Forms.Button();
             this.FilterItemID = new System.Windows.Forms.Button();
             this.FilterUser = new System.Windows.Forms.Button();
+            this.TransactionListView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // GoBackTransactionList
@@ -100,14 +100,6 @@
             this.label1.Size = new System.Drawing.Size(282, 42);
             this.label1.TabIndex = 29;
             this.label1.Text = "Transaction List";
-            // 
-            // PanelTransactionList
-            // 
-            this.PanelTransactionList.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.PanelTransactionList.Location = new System.Drawing.Point(33, 91);
-            this.PanelTransactionList.Name = "PanelTransactionList";
-            this.PanelTransactionList.Size = new System.Drawing.Size(860, 564);
-            this.PanelTransactionList.TabIndex = 30;
             // 
             // label2
             // 
@@ -212,11 +204,25 @@
             this.FilterUser.Text = "User";
             this.FilterUser.UseVisualStyleBackColor = false;
             // 
+            // TransactionListView
+            // 
+            this.TransactionListView.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.TransactionListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TransactionListView.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TransactionListView.HideSelection = false;
+            this.TransactionListView.Location = new System.Drawing.Point(25, 78);
+            this.TransactionListView.Name = "TransactionListView";
+            this.TransactionListView.Size = new System.Drawing.Size(868, 591);
+            this.TransactionListView.TabIndex = 38;
+            this.TransactionListView.UseCompatibleStateImageBehavior = false;
+            this.TransactionListView.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            // 
             // TransactionListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.TransactionListView);
             this.Controls.Add(this.FilterUser);
             this.Controls.Add(this.FilterItemID);
             this.Controls.Add(this.FilterOperation);
@@ -224,7 +230,6 @@
             this.Controls.Add(this.FilterDate);
             this.Controls.Add(this.QueryTransactionList);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.PanelTransactionList);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ViewTransaction);
             this.Controls.Add(this.ExportTransaction);
@@ -242,7 +247,6 @@
         private System.Windows.Forms.Button ExportTransaction;
         private System.Windows.Forms.Button ViewTransaction;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel PanelTransactionList;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox QueryTransactionList;
         private System.Windows.Forms.Button FilterDate;
@@ -250,5 +254,6 @@
         private System.Windows.Forms.Button FilterOperation;
         private System.Windows.Forms.Button FilterItemID;
         private System.Windows.Forms.Button FilterUser;
+        private System.Windows.Forms.ListView TransactionListView;
     }
 }

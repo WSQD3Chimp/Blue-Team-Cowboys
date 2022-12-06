@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PanelViewTransaction = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.GoBackViewTransaction = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,32 +46,9 @@
             this.TransactionOriginalUnits = new System.Windows.Forms.Label();
             this.TransactionChange = new System.Windows.Forms.Label();
             this.TransactionNewTotal = new System.Windows.Forms.Label();
+            this.PanelViewTransaction = new System.Windows.Forms.Panel();
             this.PanelViewTransaction.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // PanelViewTransaction
-            // 
-            this.PanelViewTransaction.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.PanelViewTransaction.Controls.Add(this.TransactionNewTotal);
-            this.PanelViewTransaction.Controls.Add(this.TransactionChange);
-            this.PanelViewTransaction.Controls.Add(this.TransactionOriginalUnits);
-            this.PanelViewTransaction.Controls.Add(this.TransactionAffected);
-            this.PanelViewTransaction.Controls.Add(this.TransactionOperation);
-            this.PanelViewTransaction.Controls.Add(this.TransactionChangesBy);
-            this.PanelViewTransaction.Controls.Add(this.TransactionDate);
-            this.PanelViewTransaction.Controls.Add(this.TransactionIDText);
-            this.PanelViewTransaction.Controls.Add(this.label9);
-            this.PanelViewTransaction.Controls.Add(this.label8);
-            this.PanelViewTransaction.Controls.Add(this.label7);
-            this.PanelViewTransaction.Controls.Add(this.label6);
-            this.PanelViewTransaction.Controls.Add(this.label5);
-            this.PanelViewTransaction.Controls.Add(this.label4);
-            this.PanelViewTransaction.Controls.Add(this.label3);
-            this.PanelViewTransaction.Controls.Add(this.label2);
-            this.PanelViewTransaction.Location = new System.Drawing.Point(26, 98);
-            this.PanelViewTransaction.Name = "PanelViewTransaction";
-            this.PanelViewTransaction.Size = new System.Drawing.Size(860, 564);
-            this.PanelViewTransaction.TabIndex = 33;
             // 
             // label1
             // 
@@ -261,6 +237,30 @@
             this.TransactionNewTotal.TabIndex = 15;
             this.TransactionNewTotal.Text = "label17";
             // 
+            // PanelViewTransaction
+            // 
+            this.PanelViewTransaction.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.PanelViewTransaction.Controls.Add(this.TransactionNewTotal);
+            this.PanelViewTransaction.Controls.Add(this.TransactionChange);
+            this.PanelViewTransaction.Controls.Add(this.TransactionOriginalUnits);
+            this.PanelViewTransaction.Controls.Add(this.TransactionAffected);
+            this.PanelViewTransaction.Controls.Add(this.TransactionOperation);
+            this.PanelViewTransaction.Controls.Add(this.TransactionChangesBy);
+            this.PanelViewTransaction.Controls.Add(this.TransactionDate);
+            this.PanelViewTransaction.Controls.Add(this.TransactionIDText);
+            this.PanelViewTransaction.Controls.Add(this.label9);
+            this.PanelViewTransaction.Controls.Add(this.label8);
+            this.PanelViewTransaction.Controls.Add(this.label7);
+            this.PanelViewTransaction.Controls.Add(this.label6);
+            this.PanelViewTransaction.Controls.Add(this.label5);
+            this.PanelViewTransaction.Controls.Add(this.label4);
+            this.PanelViewTransaction.Controls.Add(this.label3);
+            this.PanelViewTransaction.Controls.Add(this.label2);
+            this.PanelViewTransaction.Location = new System.Drawing.Point(26, 98);
+            this.PanelViewTransaction.Name = "PanelViewTransaction";
+            this.PanelViewTransaction.Size = new System.Drawing.Size(860, 564);
+            this.PanelViewTransaction.TabIndex = 33;
+            // 
             // ViewTransactionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -279,25 +279,24 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel PanelViewTransaction;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button GoBackViewTransaction;
-        private System.Windows.Forms.Label TransactionNewTotal;
-        private System.Windows.Forms.Label TransactionChange;
-        private System.Windows.Forms.Label TransactionOriginalUnits;
-        private System.Windows.Forms.Label TransactionAffected;
-        private System.Windows.Forms.Label TransactionOperation;
-        private System.Windows.Forms.Label TransactionChangesBy;
-        private System.Windows.Forms.Label TransactionDate;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label TransactionIDText;
+        private System.Windows.Forms.Label TransactionDate;
+        private System.Windows.Forms.Label TransactionChangesBy;
+        private System.Windows.Forms.Label TransactionOperation;
+        private System.Windows.Forms.Label TransactionAffected;
+        private System.Windows.Forms.Label TransactionOriginalUnits;
+        private System.Windows.Forms.Label TransactionChange;
+        private System.Windows.Forms.Label TransactionNewTotal;
+        private System.Windows.Forms.Panel PanelViewTransaction;
     }
 }

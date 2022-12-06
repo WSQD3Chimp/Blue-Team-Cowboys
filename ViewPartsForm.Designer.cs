@@ -32,7 +32,7 @@
             this.AddItemViewParts = new System.Windows.Forms.Button();
             this.DeleteItemsViewParts = new System.Windows.Forms.Button();
             this.GoBackViewParts = new System.Windows.Forms.Button();
-            this.PanelViewParts = new System.Windows.Forms.Panel();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // label1
@@ -97,24 +97,26 @@
             this.GoBackViewParts.Text = "Go Back";
             this.GoBackViewParts.UseVisualStyleBackColor = false;
             // 
-            // PanelViewParts
+            // listView1
             // 
-            this.PanelViewParts.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.PanelViewParts.Location = new System.Drawing.Point(12, 83);
-            this.PanelViewParts.Name = "PanelViewParts";
-            this.PanelViewParts.Size = new System.Drawing.Size(1240, 578);
-            this.PanelViewParts.TabIndex = 24;
+            this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(19, 88);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1233, 581);
+            this.listView1.TabIndex = 29;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // ViewPartsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddItemViewParts);
             this.Controls.Add(this.DeleteItemsViewParts);
             this.Controls.Add(this.GoBackViewParts);
-            this.Controls.Add(this.PanelViewParts);
             this.Name = "ViewPartsForm";
             this.Text = "ViewPartsForm";
             this.ResumeLayout(false);
@@ -128,6 +130,6 @@
         private System.Windows.Forms.Button AddItemViewParts;
         private System.Windows.Forms.Button DeleteItemsViewParts;
         private System.Windows.Forms.Button GoBackViewParts;
-        private System.Windows.Forms.Panel PanelViewParts;
+        private System.Windows.Forms.ListView listView1;
     }
 }

@@ -31,7 +31,7 @@
             this.GoBackViewInventory = new System.Windows.Forms.Button();
             this.EditCatalogue = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.ViewInventoryPanel = new System.Windows.Forms.Panel();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // GoBackViewInventory
@@ -79,21 +79,22 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Inventory";
             // 
-            // ViewInventoryPanel
+            // listView1
             // 
-            this.ViewInventoryPanel.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ViewInventoryPanel.Location = new System.Drawing.Point(12, 91);
-            this.ViewInventoryPanel.Name = "ViewInventoryPanel";
-            this.ViewInventoryPanel.Size = new System.Drawing.Size(1240, 578);
-            this.ViewInventoryPanel.TabIndex = 18;
-            this.ViewInventoryPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ViewInventoryPanel_Paint);
+            this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(28, 100);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1224, 569);
+            this.listView1.TabIndex = 17;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // ViewInventoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.ViewInventoryPanel);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.EditCatalogue);
             this.Controls.Add(this.GoBackViewInventory);
@@ -109,6 +110,6 @@
         private System.Windows.Forms.Button GoBackViewInventory;
         private System.Windows.Forms.Button EditCatalogue;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel ViewInventoryPanel;
+        private System.Windows.Forms.ListView listView1;
     }
 }

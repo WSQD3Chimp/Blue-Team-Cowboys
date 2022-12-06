@@ -28,20 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.EditCataloguePanel = new System.Windows.Forms.Panel();
             this.GoBackEditCatalogue = new System.Windows.Forms.Button();
             this.DeleteItemsCatalogue = new System.Windows.Forms.Button();
             this.AddItemCatalogue = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
-            // 
-            // EditCataloguePanel
-            // 
-            this.EditCataloguePanel.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.EditCataloguePanel.Location = new System.Drawing.Point(12, 91);
-            this.EditCataloguePanel.Name = "EditCataloguePanel";
-            this.EditCataloguePanel.Size = new System.Drawing.Size(1240, 578);
-            this.EditCataloguePanel.TabIndex = 19;
             // 
             // GoBackEditCatalogue
             // 
@@ -108,16 +100,26 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Edit Catalogue";
             // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(19, 98);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1233, 571);
+            this.listView1.TabIndex = 24;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
             // EditCatalogueForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddItemCatalogue);
             this.Controls.Add(this.DeleteItemsCatalogue);
             this.Controls.Add(this.GoBackEditCatalogue);
-            this.Controls.Add(this.EditCataloguePanel);
             this.Name = "EditCatalogueForm";
             this.Text = "EditCatalogueForm";
             this.ResumeLayout(false);
@@ -126,11 +128,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel EditCataloguePanel;
         private System.Windows.Forms.Button GoBackEditCatalogue;
         private System.Windows.Forms.Button DeleteItemsCatalogue;
         private System.Windows.Forms.Button AddItemCatalogue;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListView listView1;
     }
 }
