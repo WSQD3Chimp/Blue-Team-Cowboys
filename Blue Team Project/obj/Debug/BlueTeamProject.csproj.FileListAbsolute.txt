@@ -1,0 +1,11 @@
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.csproj.AssemblyReference.cache
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.AccountCreation1Form.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.AccountCreation2Form.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.ForgotPasswordForm.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.MainMenuForm.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.Form2.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.Form1.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.Form2.aa-DJ.resources
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.csproj.GenerateResource.cache
+C:\Users\sebas\source\repos\Blue-Team-Cowboys\Blue Team Project\obj\Debug\BlueTeamProject.ViewInventoryForm.resources
