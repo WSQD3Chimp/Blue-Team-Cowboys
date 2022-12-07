@@ -190,7 +190,7 @@ namespace BlueTeamProject
             while (reader.Read())
             {
                 transactions.Insert(i, new Transaction());
-                transactions[i].transaction_id = id;
+                transactions[i].transaction_id = reader.GetInt32(0);
                 transactions[i].account_id = reader.GetInt32(1);
                 transactions[i].item_id = reader.GetInt32(2);
                 transactions[i].operation_type = reader.GetString(3);
@@ -211,7 +211,7 @@ namespace BlueTeamProject
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
 
-            sql = "insert into [dbo].[Transactions](accountid, item_id, operation_types, unit_change, datetime) values('" + account_id + "','" + item_id + "', '" + operation_type + "', '" + unit_change + "', '" + DateTime.Now + ")";
+            sql = "insert into [dbo].[Transactions](account_id, item_id, operation_type, unit_change, datetime) values('" + account_id + "','" + item_id + "', '" + operation_type + "', '" + unit_change + "', '" + DateTime.Now + "')";
             cmd = new SqlCommand(sql, conn);
             adapter.InsertCommand = new SqlCommand(sql, conn);
             adapter.InsertCommand.ExecuteNonQuery();

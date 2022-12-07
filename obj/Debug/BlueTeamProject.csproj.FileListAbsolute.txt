@@ -41,3 +41,14 @@ D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\
 D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\aa-DJ\BlueTeamProject.resources.dll
 D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.exe
 D:\Download Kingpin\Blue-Team-Cowboys-main (2)\Blue-Team-Cowboys-main\obj\Debug\BlueTeamProject.pdb
+C:\xampp\htdocs\Blue-Team-Cowboys\bin\Debug\aa-DJ\BlueTeamProject.resources.dll
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AddItemForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.AddPartForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.EditCatalogueForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.TransactionListForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ViewInventoryForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ViewItemForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ViewPartsForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.ViewTransactionForm.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\BlueTeamProject.PasswordResetForm.aa-DJ.resources
+C:\xampp\htdocs\Blue-Team-Cowboys\obj\Debug\aa-DJ\BlueTeamProject.resources.dll

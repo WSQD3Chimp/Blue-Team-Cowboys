@@ -46,7 +46,7 @@
             // 
             this.TransactionListView.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.TransactionListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TransactionListView.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TransactionListView.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TransactionListView.HideSelection = false;
             this.TransactionListView.Location = new System.Drawing.Point(19, 78);
             this.TransactionListView.Name = "TransactionListView";
@@ -61,7 +61,7 @@
             this.FilterUser.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.FilterUser.FlatAppearance.BorderSize = 0;
             this.FilterUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FilterUser.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterUser.ForeColor = System.Drawing.Color.White;
             this.FilterUser.Location = new System.Drawing.Point(907, 348);
             this.FilterUser.Name = "FilterUser";
@@ -77,7 +77,7 @@
             this.FilterItemID.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.FilterItemID.FlatAppearance.BorderSize = 0;
             this.FilterItemID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FilterItemID.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterItemID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterItemID.ForeColor = System.Drawing.Color.White;
             this.FilterItemID.Location = new System.Drawing.Point(1086, 269);
             this.FilterItemID.Name = "FilterItemID";
@@ -93,7 +93,7 @@
             this.FilterOperation.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.FilterOperation.FlatAppearance.BorderSize = 0;
             this.FilterOperation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FilterOperation.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterOperation.ForeColor = System.Drawing.Color.White;
             this.FilterOperation.Location = new System.Drawing.Point(907, 269);
             this.FilterOperation.Name = "FilterOperation";
@@ -109,7 +109,7 @@
             this.FilterTransactionID.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.FilterTransactionID.FlatAppearance.BorderSize = 0;
             this.FilterTransactionID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FilterTransactionID.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterTransactionID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterTransactionID.ForeColor = System.Drawing.Color.White;
             this.FilterTransactionID.Location = new System.Drawing.Point(1086, 188);
             this.FilterTransactionID.Name = "FilterTransactionID";
@@ -125,7 +125,7 @@
             this.FilterDate.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.FilterDate.FlatAppearance.BorderSize = 0;
             this.FilterDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FilterDate.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilterDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FilterDate.ForeColor = System.Drawing.Color.White;
             this.FilterDate.Location = new System.Drawing.Point(907, 188);
             this.FilterDate.Name = "FilterDate";
@@ -138,22 +138,22 @@
             // 
             this.QueryTransactionList.BackColor = System.Drawing.Color.Gainsboro;
             this.QueryTransactionList.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.QueryTransactionList.Font = new System.Drawing.Font("Inter", 16F);
+            this.QueryTransactionList.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.QueryTransactionList.ForeColor = System.Drawing.SystemColors.GrayText;
             this.QueryTransactionList.Location = new System.Drawing.Point(907, 142);
             this.QueryTransactionList.Name = "QueryTransactionList";
-            this.QueryTransactionList.Size = new System.Drawing.Size(339, 26);
+            this.QueryTransactionList.Size = new System.Drawing.Size(339, 25);
             this.QueryTransactionList.TabIndex = 44;
             this.QueryTransactionList.Text = "Enter Query...";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(902, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 25);
+            this.label2.Size = new System.Drawing.Size(109, 25);
             this.label2.TabIndex = 43;
             this.label2.Text = "Filter By...";
             // 
@@ -175,7 +175,7 @@
             this.ViewTransaction.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.ViewTransaction.FlatAppearance.BorderSize = 0;
             this.ViewTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewTransaction.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewTransaction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewTransaction.ForeColor = System.Drawing.Color.White;
             this.ViewTransaction.Location = new System.Drawing.Point(727, 12);
             this.ViewTransaction.Name = "ViewTransaction";
@@ -191,7 +191,7 @@
             this.ExportTransaction.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.ExportTransaction.FlatAppearance.BorderSize = 0;
             this.ExportTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExportTransaction.Font = new System.Drawing.Font("Inter", 13F);
+            this.ExportTransaction.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.ExportTransaction.ForeColor = System.Drawing.Color.White;
             this.ExportTransaction.Location = new System.Drawing.Point(907, 12);
             this.ExportTransaction.Name = "ExportTransaction";
@@ -207,7 +207,7 @@
             this.GoBackTransactionList.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackTransactionList.FlatAppearance.BorderSize = 0;
             this.GoBackTransactionList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackTransactionList.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GoBackTransactionList.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GoBackTransactionList.ForeColor = System.Drawing.Color.White;
             this.GoBackTransactionList.Location = new System.Drawing.Point(1086, 12);
             this.GoBackTransactionList.Name = "GoBackTransactionList";
@@ -215,6 +215,7 @@
             this.GoBackTransactionList.TabIndex = 39;
             this.GoBackTransactionList.Text = "Go Back";
             this.GoBackTransactionList.UseVisualStyleBackColor = false;
+            this.GoBackTransactionList.Click += new System.EventHandler(this.GoBackTransactionList_Click);
             // 
             // TransactionListForm
             // 
