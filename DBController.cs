@@ -148,5 +148,75 @@ namespace BlueTeamProject
             conn.Close();
             return items;
         }
+
+        public static Transaction viewTransaction(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            Transaction transaction = new Transaction();
+            sql = "Select * from [dbo].[Transaction] where id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                transaction.transaction_id = id;
+                transaction.account_id = reader.GetInt32(1);
+                transaction.item_id = reader.GetInt32(2);
+                transaction.operation_type = reader.GetString(3);
+                transaction.unit_change = reader.GetDecimal(4);
+                transaction.date = reader.GetDateTime(5);
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transaction;
+        }
+
+        public static List<Transaction> viewTransactions()
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions]";
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = id;
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static void insertTransaction(int account_id, int item_id, string operation_type, decimal unit_change)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            string sql;
+
+            sql = "insert into [dbo].[Transactions](accountid, item_id, operation_types, unit_change, datetime) values('" + account_id + "','" + item_id + "', '" + operation_type + "', '" + unit_change + "', '" + DateTime.Now + ")";
+            cmd = new SqlCommand(sql, conn);
+            adapter.InsertCommand = new SqlCommand(sql, conn);
+            adapter.InsertCommand.ExecuteNonQuery();
+            cmd.Dispose();
+            conn.Close();
+        }
     }
 }

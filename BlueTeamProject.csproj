@@ -70,6 +70,7 @@
     <Compile Include="AddPartForm.Designer.cs">
       <DependentUpon>AddPartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transaction.cs" />
     <Compile Include="DatabaseDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
