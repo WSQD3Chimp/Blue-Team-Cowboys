@@ -61,7 +61,7 @@
             this.AddItemAddItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.AddItemAddItem.FlatAppearance.BorderSize = 0;
             this.AddItemAddItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddItemAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.AddItemAddItem.Font = new System.Drawing.Font("Inter", 14.25F);
             this.AddItemAddItem.ForeColor = System.Drawing.Color.White;
             this.AddItemAddItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.AddItemAddItem.Location = new System.Drawing.Point(747, 534);
@@ -70,7 +70,6 @@
             this.AddItemAddItem.TabIndex = 66;
             this.AddItemAddItem.Text = "Add Item";
             this.AddItemAddItem.UseVisualStyleBackColor = false;
-            this.AddItemAddItem.Click += new System.EventHandler(this.AddItemAddItem_Click);
             // 
             // AddItemPictureImage
             // 
@@ -130,14 +129,13 @@
             // 
             this.DescriptionAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.DescriptionAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DescriptionAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.DescriptionAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.DescriptionAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.DescriptionAddItem.Location = new System.Drawing.Point(394, 494);
             this.DescriptionAddItem.Name = "DescriptionAddItem";
-            this.DescriptionAddItem.Size = new System.Drawing.Size(494, 25);
+            this.DescriptionAddItem.Size = new System.Drawing.Size(494, 26);
             this.DescriptionAddItem.TabIndex = 60;
             this.DescriptionAddItem.Text = "Enter Answer...";
-            this.DescriptionAddItem.TextChanged += new System.EventHandler(this.DescriptionAddItem_TextChanged);
             // 
             // label6
             // 
@@ -154,14 +152,13 @@
             // 
             this.PriceAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.PriceAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PriceAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.PriceAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.PriceAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.PriceAddItem.Location = new System.Drawing.Point(394, 430);
             this.PriceAddItem.Name = "PriceAddItem";
-            this.PriceAddItem.Size = new System.Drawing.Size(494, 25);
+            this.PriceAddItem.Size = new System.Drawing.Size(494, 26);
             this.PriceAddItem.TabIndex = 58;
             this.PriceAddItem.Text = "Enter Answer...";
-            this.PriceAddItem.TextChanged += new System.EventHandler(this.PriceAddItem_TextChanged);
             // 
             // label7
             // 
@@ -178,14 +175,13 @@
             // 
             this.MinimumUnitsAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.MinimumUnitsAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.MinimumUnitsAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.MinimumUnitsAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.MinimumUnitsAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.MinimumUnitsAddItem.Location = new System.Drawing.Point(394, 366);
             this.MinimumUnitsAddItem.Name = "MinimumUnitsAddItem";
-            this.MinimumUnitsAddItem.Size = new System.Drawing.Size(494, 25);
+            this.MinimumUnitsAddItem.Size = new System.Drawing.Size(494, 26);
             this.MinimumUnitsAddItem.TabIndex = 56;
             this.MinimumUnitsAddItem.Text = "Enter Answer...";
-            this.MinimumUnitsAddItem.TextChanged += new System.EventHandler(this.MinimumUnitsAddItem_TextChanged);
             // 
             // label8
             // 
@@ -202,14 +198,13 @@
             // 
             this.ItemQuantityAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.ItemQuantityAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ItemQuantityAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ItemQuantityAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.ItemQuantityAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.ItemQuantityAddItem.Location = new System.Drawing.Point(394, 307);
             this.ItemQuantityAddItem.Name = "ItemQuantityAddItem";
-            this.ItemQuantityAddItem.Size = new System.Drawing.Size(494, 25);
+            this.ItemQuantityAddItem.Size = new System.Drawing.Size(494, 26);
             this.ItemQuantityAddItem.TabIndex = 54;
             this.ItemQuantityAddItem.Text = "Enter Answer...";
-            this.ItemQuantityAddItem.TextChanged += new System.EventHandler(this.ItemQuantityAddItem_TextChanged);
             // 
             // label5
             // 
@@ -226,14 +221,13 @@
             // 
             this.ManufacturerAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.ManufacturerAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ManufacturerAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ManufacturerAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.ManufacturerAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.ManufacturerAddItem.Location = new System.Drawing.Point(394, 243);
             this.ManufacturerAddItem.Name = "ManufacturerAddItem";
-            this.ManufacturerAddItem.Size = new System.Drawing.Size(494, 25);
+            this.ManufacturerAddItem.Size = new System.Drawing.Size(494, 26);
             this.ManufacturerAddItem.TabIndex = 52;
             this.ManufacturerAddItem.Text = "Enter Answer...";
-            this.ManufacturerAddItem.TextChanged += new System.EventHandler(this.ManufacturerAddItem_TextChanged);
             // 
             // label4
             // 
@@ -250,14 +244,13 @@
             // 
             this.ItemNameAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.ItemNameAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ItemNameAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ItemNameAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.ItemNameAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.ItemNameAddItem.Location = new System.Drawing.Point(394, 179);
             this.ItemNameAddItem.Name = "ItemNameAddItem";
-            this.ItemNameAddItem.Size = new System.Drawing.Size(494, 25);
+            this.ItemNameAddItem.Size = new System.Drawing.Size(494, 26);
             this.ItemNameAddItem.TabIndex = 50;
             this.ItemNameAddItem.Text = "Enter Answer...";
-            this.ItemNameAddItem.TextChanged += new System.EventHandler(this.ItemNameAddItem_TextChanged);
             // 
             // label3
             // 
@@ -274,14 +267,13 @@
             // 
             this.ItemIDAddItem.BackColor = System.Drawing.Color.Gainsboro;
             this.ItemIDAddItem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ItemIDAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ItemIDAddItem.Font = new System.Drawing.Font("Inter", 16F);
             this.ItemIDAddItem.ForeColor = System.Drawing.SystemColors.GrayText;
             this.ItemIDAddItem.Location = new System.Drawing.Point(394, 113);
             this.ItemIDAddItem.Name = "ItemIDAddItem";
-            this.ItemIDAddItem.Size = new System.Drawing.Size(494, 25);
+            this.ItemIDAddItem.Size = new System.Drawing.Size(494, 26);
             this.ItemIDAddItem.TabIndex = 48;
             this.ItemIDAddItem.Text = "Enter Answer...";
-            this.ItemIDAddItem.TextChanged += new System.EventHandler(this.ItemIDAddItem_TextChanged);
             // 
             // label2
             // 
@@ -312,7 +304,7 @@
             this.GoBackAddItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackAddItem.FlatAppearance.BorderSize = 0;
             this.GoBackAddItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.GoBackAddItem.Font = new System.Drawing.Font("Inter", 14.25F);
             this.GoBackAddItem.ForeColor = System.Drawing.Color.White;
             this.GoBackAddItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackAddItem.Location = new System.Drawing.Point(1122, 12);
@@ -351,7 +343,6 @@
             this.Controls.Add(this.GoBackAddItem);
             this.Name = "AddItemForm";
             this.Text = "AddItemForm";
-            this.Load += new System.EventHandler(this.AddItemForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AddItemPictureImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -38,14 +38,12 @@
             // listView1
             // 
             this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.listView1.CheckBoxes = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(19, 90);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1233, 571);
             this.listView1.TabIndex = 29;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -65,7 +63,7 @@
             this.AddItemCatalogue.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.AddItemCatalogue.FlatAppearance.BorderSize = 0;
             this.AddItemCatalogue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddItemCatalogue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.AddItemCatalogue.Font = new System.Drawing.Font("Inter", 14.25F);
             this.AddItemCatalogue.ForeColor = System.Drawing.Color.White;
             this.AddItemCatalogue.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.AddItemCatalogue.Location = new System.Drawing.Point(774, 19);
@@ -74,7 +72,6 @@
             this.AddItemCatalogue.TabIndex = 27;
             this.AddItemCatalogue.Text = "Add Item";
             this.AddItemCatalogue.UseVisualStyleBackColor = false;
-            this.AddItemCatalogue.Click += new System.EventHandler(this.AddItemCatalogue_Click);
             // 
             // DeleteItemsCatalogue
             // 
@@ -83,7 +80,7 @@
             this.DeleteItemsCatalogue.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.DeleteItemsCatalogue.FlatAppearance.BorderSize = 0;
             this.DeleteItemsCatalogue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DeleteItemsCatalogue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.DeleteItemsCatalogue.Font = new System.Drawing.Font("Inter", 12.25F);
             this.DeleteItemsCatalogue.ForeColor = System.Drawing.Color.White;
             this.DeleteItemsCatalogue.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DeleteItemsCatalogue.Location = new System.Drawing.Point(922, 19);
@@ -92,7 +89,6 @@
             this.DeleteItemsCatalogue.TabIndex = 26;
             this.DeleteItemsCatalogue.Text = "Delete Selected Items";
             this.DeleteItemsCatalogue.UseVisualStyleBackColor = false;
-            this.DeleteItemsCatalogue.Click += new System.EventHandler(this.DeleteItemsCatalogue_Click);
             // 
             // GoBackEditCatalogue
             // 
@@ -101,7 +97,7 @@
             this.GoBackEditCatalogue.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackEditCatalogue.FlatAppearance.BorderSize = 0;
             this.GoBackEditCatalogue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackEditCatalogue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.GoBackEditCatalogue.Font = new System.Drawing.Font("Inter", 14.25F);
             this.GoBackEditCatalogue.ForeColor = System.Drawing.Color.White;
             this.GoBackEditCatalogue.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackEditCatalogue.Location = new System.Drawing.Point(1122, 19);
@@ -110,7 +106,6 @@
             this.GoBackEditCatalogue.TabIndex = 25;
             this.GoBackEditCatalogue.Text = "Go Back";
             this.GoBackEditCatalogue.UseVisualStyleBackColor = false;
-            this.GoBackEditCatalogue.Click += new System.EventHandler(this.GoBackEditCatalogue_Click);
             // 
             // EditCatalogueForm
             // 
@@ -124,7 +119,6 @@
             this.Controls.Add(this.GoBackEditCatalogue);
             this.Name = "EditCatalogueForm";
             this.Text = "EditCatalogueForm";
-            this.Load += new System.EventHandler(this.EditCatalogueForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

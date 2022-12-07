@@ -34,11 +34,7 @@ namespace BlueTeamProject
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            ViewInventoryForm Vi = new ViewInventoryForm();
-            Vi.Show();
 
-            //AddItemForm a1 = new AddItemForm();
-            //a1.Show();
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -62,11 +58,6 @@ namespace BlueTeamProject
             var logout = new LoginForm();
             logout.FormClosed += (s, args) => this.Close();
             logout.Show();
-        }
-
-        private void MainMenuForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
