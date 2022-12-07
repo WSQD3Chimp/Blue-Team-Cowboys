@@ -59,5 +59,10 @@ namespace BlueTeamProject
             MainMenuForm.FormClosed += (s, args) => this.Close();
             MainMenuForm.Show();
         }
+
+        private void AccountCreation1Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

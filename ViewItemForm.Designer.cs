@@ -58,10 +58,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Inter", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(714, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(183, 23);
+            this.label7.Size = new System.Drawing.Size(172, 24);
             this.label7.TabIndex = 50;
             this.label7.Text = "Add/Remove Stock";
             // 
@@ -81,7 +81,7 @@
             this.IncrementViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.IncrementViewItem.FlatAppearance.BorderSize = 0;
             this.IncrementViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.IncrementViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.IncrementViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.IncrementViewItem.ForeColor = System.Drawing.Color.White;
             this.IncrementViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.IncrementViewItem.Location = new System.Drawing.Point(865, 39);
@@ -98,7 +98,7 @@
             this.DecrementViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.DecrementViewItem.FlatAppearance.BorderSize = 0;
             this.DecrementViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DecrementViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.DecrementViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.DecrementViewItem.ForeColor = System.Drawing.Color.White;
             this.DecrementViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DecrementViewItem.Location = new System.Drawing.Point(707, 39);
@@ -115,7 +115,7 @@
             this.ViewPartsViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.ViewPartsViewItem.FlatAppearance.BorderSize = 0;
             this.ViewPartsViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewPartsViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.ViewPartsViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.ViewPartsViewItem.ForeColor = System.Drawing.Color.White;
             this.ViewPartsViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.ViewPartsViewItem.Location = new System.Drawing.Point(134, 481);
@@ -132,7 +132,7 @@
             this.EditItemViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.EditItemViewItem.FlatAppearance.BorderSize = 0;
             this.EditItemViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EditItemViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.EditItemViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.EditItemViewItem.ForeColor = System.Drawing.Color.White;
             this.EditItemViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.EditItemViewItem.Location = new System.Drawing.Point(336, 481);
@@ -149,7 +149,7 @@
             this.SaveChangesViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.SaveChangesViewItem.FlatAppearance.BorderSize = 0;
             this.SaveChangesViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SaveChangesViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.SaveChangesViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.SaveChangesViewItem.ForeColor = System.Drawing.Color.White;
             this.SaveChangesViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SaveChangesViewItem.Location = new System.Drawing.Point(931, 12);
@@ -166,7 +166,7 @@
             this.GoBackViewItem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackViewItem.FlatAppearance.BorderSize = 0;
             this.GoBackViewItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackViewItem.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.GoBackViewItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.GoBackViewItem.ForeColor = System.Drawing.Color.White;
             this.GoBackViewItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackViewItem.Location = new System.Drawing.Point(1104, 12);
@@ -179,120 +179,120 @@
             // DescriptionText
             // 
             this.DescriptionText.AutoSize = true;
-            this.DescriptionText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescriptionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DescriptionText.Location = new System.Drawing.Point(646, 399);
             this.DescriptionText.Name = "DescriptionText";
-            this.DescriptionText.Size = new System.Drawing.Size(128, 19);
+            this.DescriptionText.Size = new System.Drawing.Size(119, 20);
             this.DescriptionText.TabIndex = 42;
             this.DescriptionText.Text = "DescriptionText";
             // 
             // PriceUnitText
             // 
             this.PriceUnitText.AutoSize = true;
-            this.PriceUnitText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PriceUnitText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PriceUnitText.Location = new System.Drawing.Point(646, 338);
             this.PriceUnitText.Name = "PriceUnitText";
-            this.PriceUnitText.Size = new System.Drawing.Size(110, 19);
+            this.PriceUnitText.Size = new System.Drawing.Size(103, 20);
             this.PriceUnitText.TabIndex = 41;
             this.PriceUnitText.Text = "PriceUnitText";
             // 
             // QuantityText
             // 
             this.QuantityText.AutoSize = true;
-            this.QuantityText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuantityText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuantityText.Location = new System.Drawing.Point(646, 283);
             this.QuantityText.Name = "QuantityText";
-            this.QuantityText.Size = new System.Drawing.Size(105, 19);
+            this.QuantityText.Size = new System.Drawing.Size(98, 20);
             this.QuantityText.TabIndex = 40;
             this.QuantityText.Text = "QuantityText";
             // 
             // ManufacturerText
             // 
             this.ManufacturerText.AutoSize = true;
-            this.ManufacturerText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManufacturerText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ManufacturerText.Location = new System.Drawing.Point(646, 230);
             this.ManufacturerText.Name = "ManufacturerText";
-            this.ManufacturerText.Size = new System.Drawing.Size(142, 19);
+            this.ManufacturerText.Size = new System.Drawing.Size(134, 20);
             this.ManufacturerText.TabIndex = 39;
             this.ManufacturerText.Text = "ManufacturerText";
             // 
             // NameText
             // 
             this.NameText.AutoSize = true;
-            this.NameText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameText.Location = new System.Drawing.Point(646, 175);
             this.NameText.Name = "NameText";
-            this.NameText.Size = new System.Drawing.Size(85, 19);
+            this.NameText.Size = new System.Drawing.Size(81, 20);
             this.NameText.TabIndex = 38;
             this.NameText.Text = "NameText";
             // 
             // ItemIDText
             // 
             this.ItemIDText.AutoSize = true;
-            this.ItemIDText.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemIDText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemIDText.Location = new System.Drawing.Point(646, 119);
             this.ItemIDText.Name = "ItemIDText";
-            this.ItemIDText.Size = new System.Drawing.Size(91, 19);
+            this.ItemIDText.Size = new System.Drawing.Size(88, 20);
             this.ItemIDText.TabIndex = 37;
             this.ItemIDText.Text = "ItemIDText";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(519, 399);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 19);
+            this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 36;
             this.label6.Text = "Description:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(519, 338);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 19);
+            this.label5.Size = new System.Drawing.Size(78, 20);
             this.label5.TabIndex = 35;
             this.label5.Text = "Price/unit:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(519, 283);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 19);
+            this.label4.Size = new System.Drawing.Size(72, 20);
             this.label4.TabIndex = 34;
             this.label4.Text = "Quantity:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(519, 230);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 19);
+            this.label3.Size = new System.Drawing.Size(108, 20);
             this.label3.TabIndex = 33;
             this.label3.Text = "Manufacturer:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(519, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 19);
+            this.label2.Size = new System.Drawing.Size(55, 20);
             this.label2.TabIndex = 32;
             this.label2.Text = "Name:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(519, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 19);
+            this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 31;
             this.label1.Text = "Item ID: ";
             // 
@@ -341,6 +341,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "ViewItemForm";
             this.Text = "ViewItemForm";
+            this.Load += new System.EventHandler(this.ViewItemForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
