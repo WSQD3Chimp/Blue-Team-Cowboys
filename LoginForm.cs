@@ -41,7 +41,44 @@ namespace BlueTeamProject
 
         private void label3_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var reset = new PasswordResetForm();
+            reset.FormClosed += (s, args) => this.Close();
+            reset.Show();
+        }
 
+        private void Login_Click(object sender, EventArgs e)
+        {
+            string username = this.Username.Text;
+            User user = DBController.getUser(username);
+            string password = Password.Text;
+            string password_hash = HashClass.GetHash(password);
+
+            if(this.Username.Text.Equals("") || this.Password.Text.Equals("")){
+                MessageBox.Show("Not all fields are inputed, please make sure all fields are entered.", "Empty Field Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (user.password_hash == null || !password_hash.Equals(user.password_hash)){
+                MessageBox.Show("Your username and/or password are incorrect, please reenter your login credentials or click \"Forgot Password\" to reset your password.", "Invalid Credentials",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                bool ismanager;
+                if (user.isManager == 0)
+                {
+                    ismanager = false;
+                }
+                else
+                {
+                    ismanager = true;
+                }
+
+                this.Hide();
+                var loggedin = new MainMenuForm(ismanager);
+                loggedin.FormClosed += (s, args) => this.Close();
+                loggedin.Show();
+            }
         }
     }
 }

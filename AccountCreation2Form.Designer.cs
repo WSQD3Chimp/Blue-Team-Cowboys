@@ -37,6 +37,7 @@
             this.CityCreation = new System.Windows.Forms.TextBox();
             this.CityAccountCreation2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.managerCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // ColorCreation
@@ -95,7 +96,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(432, 478);
+            this.button1.Location = new System.Drawing.Point(438, 512);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 48);
             this.button1.TabIndex = 23;
@@ -113,7 +114,7 @@
             this.GoBackAccountCreation1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.GoBackAccountCreation1.ForeColor = System.Drawing.Color.White;
             this.GoBackAccountCreation1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GoBackAccountCreation1.Location = new System.Drawing.Point(676, 478);
+            this.GoBackAccountCreation1.Location = new System.Drawing.Point(672, 512);
             this.GoBackAccountCreation1.Name = "GoBackAccountCreation1";
             this.GoBackAccountCreation1.Size = new System.Drawing.Size(171, 48);
             this.GoBackAccountCreation1.TabIndex = 22;
@@ -155,11 +156,23 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Security Questions";
             // 
+            // managerCheckBox
+            // 
+            this.managerCheckBox.AutoSize = true;
+            this.managerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.managerCheckBox.Location = new System.Drawing.Point(386, 464);
+            this.managerCheckBox.Name = "managerCheckBox";
+            this.managerCheckBox.Size = new System.Drawing.Size(212, 28);
+            this.managerCheckBox.TabIndex = 28;
+            this.managerCheckBox.Text = "Account is a Manager";
+            this.managerCheckBox.UseVisualStyleBackColor = true;
+            // 
             // AccountCreation2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.managerCheckBox);
             this.Controls.Add(this.ColorCreation);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.MaidenNameCreation);
@@ -187,5 +200,6 @@
         private System.Windows.Forms.TextBox CityCreation;
         private System.Windows.Forms.Label CityAccountCreation2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox managerCheckBox;
     }
 }

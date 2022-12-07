@@ -50,7 +50,7 @@
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(473, 509);
@@ -59,6 +59,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GoBackPasswordReset
             // 
@@ -67,7 +68,7 @@
             this.GoBackPasswordReset.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackPasswordReset.FlatAppearance.BorderSize = 0;
             this.GoBackPasswordReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackPasswordReset.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.GoBackPasswordReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.GoBackPasswordReset.ForeColor = System.Drawing.Color.White;
             this.GoBackPasswordReset.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackPasswordReset.Location = new System.Drawing.Point(679, 509);
@@ -76,82 +77,83 @@
             this.GoBackPasswordReset.TabIndex = 13;
             this.GoBackPasswordReset.Text = "Go Back";
             this.GoBackPasswordReset.UseVisualStyleBackColor = false;
+            this.GoBackPasswordReset.Click += new System.EventHandler(this.GoBackPasswordReset_Click);
             // 
             // AnswerCity
             // 
             this.AnswerCity.BackColor = System.Drawing.Color.Gainsboro;
             this.AnswerCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AnswerCity.Font = new System.Drawing.Font("Inter", 16F);
+            this.AnswerCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.AnswerCity.ForeColor = System.Drawing.SystemColors.GrayText;
             this.AnswerCity.Location = new System.Drawing.Point(393, 164);
             this.AnswerCity.Name = "AnswerCity";
-            this.AnswerCity.Size = new System.Drawing.Size(494, 26);
+            this.AnswerCity.Size = new System.Drawing.Size(494, 25);
             this.AnswerCity.TabIndex = 12;
             this.AnswerCity.Text = "Enter Answer...";
             // 
             // LabelCityPassReset
             // 
             this.LabelCityPassReset.AutoSize = true;
-            this.LabelCityPassReset.Font = new System.Drawing.Font("Inter", 14F);
+            this.LabelCityPassReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.LabelCityPassReset.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.LabelCityPassReset.Location = new System.Drawing.Point(389, 137);
             this.LabelCityPassReset.Name = "LabelCityPassReset";
-            this.LabelCityPassReset.Size = new System.Drawing.Size(260, 23);
+            this.LabelCityPassReset.Size = new System.Drawing.Size(242, 24);
             this.LabelCityPassReset.TabIndex = 11;
             this.LabelCityPassReset.Text = "What city were you born in?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Inter", 18F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(541, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 29);
+            this.label2.Size = new System.Drawing.Size(189, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "Password Reset";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 14F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(389, 208);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 23);
+            this.label1.Size = new System.Drawing.Size(244, 24);
             this.label1.TabIndex = 15;
             this.label1.Text = "What is your maiden name?";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Inter", 14F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(392, 348);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 23);
+            this.label3.Size = new System.Drawing.Size(92, 24);
             this.label3.TabIndex = 19;
             this.label3.Text = "Password";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Inter", 14F);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label4.Location = new System.Drawing.Point(392, 277);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(257, 23);
+            this.label4.Size = new System.Drawing.Size(234, 24);
             this.label4.TabIndex = 17;
             this.label4.Text = "What is your favorite color?";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Inter", 14F);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label6.Location = new System.Drawing.Point(392, 423);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(175, 23);
+            this.label6.Size = new System.Drawing.Size(161, 24);
             this.label6.TabIndex = 21;
             this.label6.Text = "Confirm password";
             // 
@@ -159,11 +161,11 @@
             // 
             this.AnswerMaidenName.BackColor = System.Drawing.Color.Gainsboro;
             this.AnswerMaidenName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AnswerMaidenName.Font = new System.Drawing.Font("Inter", 16F);
+            this.AnswerMaidenName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.AnswerMaidenName.ForeColor = System.Drawing.SystemColors.GrayText;
             this.AnswerMaidenName.Location = new System.Drawing.Point(393, 234);
             this.AnswerMaidenName.Name = "AnswerMaidenName";
-            this.AnswerMaidenName.Size = new System.Drawing.Size(494, 26);
+            this.AnswerMaidenName.Size = new System.Drawing.Size(494, 25);
             this.AnswerMaidenName.TabIndex = 25;
             this.AnswerMaidenName.Text = "Enter Answer...";
             // 
@@ -171,11 +173,11 @@
             // 
             this.AnswerColor.BackColor = System.Drawing.Color.Gainsboro;
             this.AnswerColor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AnswerColor.Font = new System.Drawing.Font("Inter", 16F);
+            this.AnswerColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.AnswerColor.ForeColor = System.Drawing.SystemColors.GrayText;
             this.AnswerColor.Location = new System.Drawing.Point(393, 303);
             this.AnswerColor.Name = "AnswerColor";
-            this.AnswerColor.Size = new System.Drawing.Size(494, 26);
+            this.AnswerColor.Size = new System.Drawing.Size(494, 25);
             this.AnswerColor.TabIndex = 26;
             this.AnswerColor.Text = "Enter Answer...";
             // 
@@ -183,11 +185,11 @@
             // 
             this.Password.BackColor = System.Drawing.Color.Gainsboro;
             this.Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Password.Font = new System.Drawing.Font("Inter", 16F);
+            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.Password.ForeColor = System.Drawing.SystemColors.GrayText;
             this.Password.Location = new System.Drawing.Point(393, 374);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(494, 26);
+            this.Password.Size = new System.Drawing.Size(494, 25);
             this.Password.TabIndex = 27;
             this.Password.Text = "Enter Answer...";
             // 
@@ -195,11 +197,11 @@
             // 
             this.PasswordConfirmation.BackColor = System.Drawing.Color.Gainsboro;
             this.PasswordConfirmation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PasswordConfirmation.Font = new System.Drawing.Font("Inter", 16F);
+            this.PasswordConfirmation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.PasswordConfirmation.ForeColor = System.Drawing.SystemColors.GrayText;
             this.PasswordConfirmation.Location = new System.Drawing.Point(393, 449);
             this.PasswordConfirmation.Name = "PasswordConfirmation";
-            this.PasswordConfirmation.Size = new System.Drawing.Size(494, 26);
+            this.PasswordConfirmation.Size = new System.Drawing.Size(494, 25);
             this.PasswordConfirmation.TabIndex = 28;
             this.PasswordConfirmation.Text = "Enter Answer...";
             // 

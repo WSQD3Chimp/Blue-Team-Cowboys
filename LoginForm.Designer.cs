@@ -119,6 +119,7 @@
             this.Login.TabIndex = 7;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = false;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // ForgotPasswordTextButton
             // 

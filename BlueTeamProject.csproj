@@ -58,6 +58,33 @@
     <Compile Include="AccountCreation2Form.Designer.cs">
       <DependentUpon>AccountCreation2Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemForm.Designer.cs">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPartForm.Designer.cs">
+      <DependentUpon>AddPartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction.cs" />
+    <Compile Include="DatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditCatalogueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCatalogueForm.Designer.cs">
+      <DependentUpon>EditCatalogueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="DBController.cs" />
+    <Compile Include="HashClass.cs" />
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +110,51 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="TransactionListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionListForm.Designer.cs">
+      <DependentUpon>TransactionListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="ViewInventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInventoryForm.Designer.cs">
+      <DependentUpon>ViewInventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewItemForm.Designer.cs">
+      <DependentUpon>ViewItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPartsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPartsForm.Designer.cs">
+      <DependentUpon>ViewPartsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTransactionForm.Designer.cs">
+      <DependentUpon>ViewTransactionForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AccountCreation1Form.resx">
       <DependentUpon>AccountCreation1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AccountCreation2Form.resx">
       <DependentUpon>AccountCreation2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItemForm.resx">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPartForm.resx">
+      <DependentUpon>AddPartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCatalogueForm.resx">
+      <DependentUpon>EditCatalogueForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPasswordForm.resx">
       <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
@@ -113,6 +180,32 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TransactionListForm.resx">
+      <DependentUpon>TransactionListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInventoryForm.resx">
+      <DependentUpon>ViewInventoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewItemForm.resx">
+      <DependentUpon>ViewItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPartsForm.resx">
+      <DependentUpon>ViewPartsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTransactionForm.resx">
+      <DependentUpon>ViewTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DatabaseDataSet1.xsc">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet1.xss">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

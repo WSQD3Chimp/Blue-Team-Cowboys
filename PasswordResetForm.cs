@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BlueTeamProject
 {
-    public partial class Form2 : Form
+    public partial class PasswordResetForm : Form
     {
-        public Form2()
+        public PasswordResetForm()
         {
             InitializeComponent();
         }
@@ -24,12 +24,35 @@ namespace BlueTeamProject
 
         private void Login_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            var back = new LoginForm();
+            back.FormClosed += (s, args) => this.Close();
+            back.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string username = this.Username.Text;
 
+            User user = DBController.getUser(username);
+            if (this.Username.Text.Equals(""))
+            {
+                MessageBox.Show("No input in username field, please make sure the field is entered.", "Empty Field Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (user.password_hash == null)
+            {
+                this.Username.Text = "";
+                MessageBox.Show("User \""+username+"\" does not exist, please reinput your username.", "Incorrect username",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                this.Hide();
+                var reset = new ForgotPasswordForm(username);
+                reset.FormClosed += (s, args) => this.Close();
+                reset.Show();
+            }
         }
     }
 }
