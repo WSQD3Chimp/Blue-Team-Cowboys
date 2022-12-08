@@ -43,6 +43,7 @@
             this.ViewInventoryListView.Size = new System.Drawing.Size(1224, 569);
             this.ViewInventoryListView.TabIndex = 21;
             this.ViewInventoryListView.UseCompatibleStateImageBehavior = false;
+            this.ViewInventoryListView.SelectedIndexChanged += new System.EventHandler(this.ViewInventoryListView_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -62,7 +63,7 @@
             this.EditCatalogue.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.EditCatalogue.FlatAppearance.BorderSize = 0;
             this.EditCatalogue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EditCatalogue.Font = new System.Drawing.Font("Inter", 12.25F);
+            this.EditCatalogue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.EditCatalogue.ForeColor = System.Drawing.Color.White;
             this.EditCatalogue.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.EditCatalogue.Location = new System.Drawing.Point(967, 19);
@@ -71,6 +72,7 @@
             this.EditCatalogue.TabIndex = 19;
             this.EditCatalogue.Text = "Edit Catalogue";
             this.EditCatalogue.UseVisualStyleBackColor = false;
+            this.EditCatalogue.Click += new System.EventHandler(this.EditCatalogue_Click);
             // 
             // GoBackViewInventory
             // 
@@ -79,7 +81,7 @@
             this.GoBackViewInventory.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackViewInventory.FlatAppearance.BorderSize = 0;
             this.GoBackViewInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackViewInventory.Font = new System.Drawing.Font("Inter", 14.25F);
+            this.GoBackViewInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.GoBackViewInventory.ForeColor = System.Drawing.Color.White;
             this.GoBackViewInventory.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackViewInventory.Location = new System.Drawing.Point(1118, 19);
@@ -88,6 +90,7 @@
             this.GoBackViewInventory.TabIndex = 18;
             this.GoBackViewInventory.Text = "Go Back";
             this.GoBackViewInventory.UseVisualStyleBackColor = false;
+            this.GoBackViewInventory.Click += new System.EventHandler(this.GoBackViewInventory_Click);
             // 
             // ViewInventoryForm
             // 
@@ -100,6 +103,7 @@
             this.Controls.Add(this.GoBackViewInventory);
             this.Name = "ViewInventoryForm";
             this.Text = "ViewInventoryForm";
+            this.Load += new System.EventHandler(this.ViewInventoryForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
