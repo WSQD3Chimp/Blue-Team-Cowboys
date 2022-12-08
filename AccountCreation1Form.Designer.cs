@@ -171,7 +171,6 @@
             this.Controls.Add(this.label2);
             this.Name = "AccountCreation1Form";
             this.Text = "AccountCreation1Form";
-            this.Load += new System.EventHandler(this.AccountCreation1Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
