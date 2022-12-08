@@ -12,7 +12,7 @@ namespace BlueTeamProject
 
         public static void Connect()
         {
-            constr = @"Data Source=DESKTOP-P6C13GB\SQLEXPRESS;Initial Catalog=Database;Integrated Security=True";
+            constr = @"Data Source=DESKTOP-U3Q7T4N\MSSQLSERVER01;Initial Catalog=DbCowboys;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             conn = new SqlConnection(constr);
             conn.Open();
             Console.WriteLine(conn.State);
@@ -104,13 +104,13 @@ namespace BlueTeamProject
             while (reader.Read())
             {
                 item.id = id;    
-                item.item_minimum = reader.GetFloat(1);
-                item.item_units = reader.GetFloat(2);
-                item.item_price = reader.GetFloat(3);
+                item.item_minimum = reader.GetDecimal(1);
+                item.item_units = reader.GetDecimal(2);
+                item.item_price = reader.GetDecimal(3);
                 item.manufacturer = reader.GetString(4);
                 item.item_name = reader.GetString(5);
                 item.description = reader.GetString(6);
-                item.isMachine = reader.GetByte(7);
+                item.isMachine = reader.GetBoolean(7);
             }
             reader.Close();
             cmd.Dispose();
@@ -134,13 +134,13 @@ namespace BlueTeamProject
             {
                 items.Insert(i, new Item());
                 items[i].id = reader.GetInt32(0);
-                items[i].item_minimum = reader.GetFloat(1);
-                items[i].item_units = reader.GetFloat(2);
-                items[i].item_price = reader.GetFloat(3);
+                items[i].item_minimum = reader.GetDecimal(1);
+                items[i].item_units = reader.GetDecimal(2);
+                items[i].item_price = reader.GetDecimal(3);
                 items[i].manufacturer = reader.GetString(4);
                 items[i].item_name = reader.GetString(5);
                 items[i].description = reader.GetString(6);
-                items[i].isMachine = reader.GetByte(7);
+                items[i].isMachine = reader.GetBoolean(7);
                 i++;
             }
             reader.Close();

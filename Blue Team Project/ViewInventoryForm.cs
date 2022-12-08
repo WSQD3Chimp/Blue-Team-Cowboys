@@ -13,6 +13,8 @@ namespace BlueTeamProject
 {
     public partial class ViewInventoryForm : UserControl
     {
+        public static ViewInventoryForm instance;
+        public ListView lv1;
         SqlConnection con = new SqlConnection("Data Source =.;Initial Catalog=Inventory_POS;Intergrated Security=True ");
         SqlCommand cmd;
         DataTable dt;
@@ -22,6 +24,8 @@ namespace BlueTeamProject
         public ViewInventoryForm()
         {
             InitializeComponent();
+            instance= this;
+            lv1 = listView1;
         }
 
         private void ViewInventoryForm_Load(object sender, EventArgs e)
@@ -51,12 +55,13 @@ namespace BlueTeamProject
                 listView1.Items[i].SubItems.Add(dt.Rows[i].ItemArray[2].ToString());
             }
 
-            if (listView1.Items.(listView1.SelectedItems[0]))
+            if (listView1.SelectedItems != null)
             {
+                //View
                 ViewItemForm viewItem = new ViewItemForm();
                 viewItem.Show();
             }
-            listView1.Se
+            //Remove(listView1.SelectedItems[0])
         }
 
 
