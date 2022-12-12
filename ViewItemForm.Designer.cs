@@ -107,6 +107,7 @@
             this.DecrementViewItem.TabIndex = 47;
             this.DecrementViewItem.Text = "-";
             this.DecrementViewItem.UseVisualStyleBackColor = false;
+            this.DecrementViewItem.Click += new System.EventHandler(this.DecrementViewItem_Click);
             // 
             // ViewPartsViewItem
             // 
@@ -124,6 +125,7 @@
             this.ViewPartsViewItem.TabIndex = 46;
             this.ViewPartsViewItem.Text = "View Parts";
             this.ViewPartsViewItem.UseVisualStyleBackColor = false;
+            this.ViewPartsViewItem.Click += new System.EventHandler(this.ViewPartsViewItem_Click);
             // 
             // EditItemViewItem
             // 
@@ -175,6 +177,7 @@
             this.GoBackViewItem.TabIndex = 43;
             this.GoBackViewItem.Text = "Go Back";
             this.GoBackViewItem.UseVisualStyleBackColor = false;
+            this.GoBackViewItem.Click += new System.EventHandler(this.GoBackViewItem_Click);
             // 
             // DescriptionText
             // 

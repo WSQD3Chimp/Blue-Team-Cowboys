@@ -133,6 +133,7 @@
             this.FilterDate.TabIndex = 45;
             this.FilterDate.Text = "Date (yy/mm/dd)";
             this.FilterDate.UseVisualStyleBackColor = false;
+            this.FilterDate.Click += new System.EventHandler(this.FilterDate_Click);
             // 
             // QueryTransactionList
             // 

@@ -28,12 +28,12 @@ namespace BlueTeamProject
         {
             listView1.Columns.Add("item_id", 100);
             listView1.Columns.Add("item_name", 100, HorizontalAlignment.Center);
-            listView1.Columns.Add("maufacturer", 100, HorizontalAlignment.Center);
+            listView1.Columns.Add("manufacturer", 100, HorizontalAlignment.Center);
             listView1.Columns.Add("description", 100, HorizontalAlignment.Center);
             listView1.View = View.Details;
 
             con.Open();
-            cmd = new SqlCommand("select * from Item", con);
+            cmd = new SqlCommand("select item_id, item_name, manufacturer, description from Item;", con);
 
             sqlDataAdapter = new SqlDataAdapter(cmd);
             dataSet = new DataSet();
@@ -61,7 +61,9 @@ namespace BlueTeamProject
 
         private void AddItemCatalogue_Click(object sender, EventArgs e)
         {
-            AddItemForm addItem = new AddItemForm();
+            this.Hide();
+            var addItem = new AddItemForm();
+            addItem.FormClosed += (s, args) => this.Close();
             addItem.Show();
         }
 
@@ -77,7 +79,9 @@ namespace BlueTeamProject
 
         private void GoBackEditCatalogue_Click(object sender, EventArgs e)
         {
-            ViewInventoryForm v1 = new ViewInventoryForm();
+            this.Hide();
+            var v1 = new ViewInventoryForm();
+            v1.FormClosed += (s, args) => this.Close();
             v1.Show();
         }
     }

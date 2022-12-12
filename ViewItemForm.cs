@@ -54,7 +54,24 @@ namespace BlueTeamProject
 
                 }
             }
+        }
 
+        private void ViewPartsViewItem_Click(object sender, EventArgs e)
+        {
+            ViewPartsForm viewParts = new ViewPartsForm();
+            viewParts.Show();
+        }
+
+        private void GoBackViewItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var vI = new ViewInventoryForm();
+            vI.FormClosed += (s, args) => this.Close();
+            vI.Show();
+        }
+
+        private void DecrementViewItem_Click(object sender, EventArgs e)
+        {
 
         }
     }

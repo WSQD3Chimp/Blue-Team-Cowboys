@@ -57,5 +57,10 @@ namespace BlueTeamProject
             back.FormClosed += (s, args) => this.Close();
             back.Show();
         }
+
+        private void FilterDate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
