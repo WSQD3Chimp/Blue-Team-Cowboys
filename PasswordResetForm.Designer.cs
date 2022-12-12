@@ -45,6 +45,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // GoBackForgotPassword
             // 
@@ -55,6 +56,7 @@
             this.GoBackForgotPassword.ForeColor = System.Drawing.Color.White;
             this.GoBackForgotPassword.Name = "GoBackForgotPassword";
             this.GoBackForgotPassword.UseVisualStyleBackColor = false;
+            this.GoBackForgotPassword.Click += new System.EventHandler(this.GoBackForgotPassword_Click);
             // 
             // Username
             // 

@@ -149,6 +149,8 @@ namespace BlueTeamProject
             return items;
         }
 
+        
+
         public static Transaction viewTransaction(int id)
         {
             Connect();
@@ -217,6 +219,7 @@ namespace BlueTeamProject
             adapter.InsertCommand.ExecuteNonQuery();
             cmd.Dispose();
             conn.Close();
+            
         }
 
         public static List<Transaction> searchTransactionById(int id)
