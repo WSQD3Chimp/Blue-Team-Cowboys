@@ -12,7 +12,7 @@ namespace BlueTeamProject
 
         public static void Connect()
         {
-            constr = @"Data Source=DESKTOP-U3Q7T4N\MSSQLSERVER01;Initial Catalog=DbCowboys;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            constr = @"Data Source=DESKTOP-P6C13GB\SQLEXPRESS;Initial Catalog=Database;Integrated Security=True";
             conn = new SqlConnection(constr);
             conn.Open();
             Console.WriteLine(conn.State);
@@ -157,7 +157,7 @@ namespace BlueTeamProject
 
             string sql;
             Transaction transaction = new Transaction();
-            sql = "Select * from [dbo].[Transaction] where id=" + id;
+            sql = "Select * from [dbo].[Transactions] where id=" + id;
             cmd = new SqlCommand(sql, conn);
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -217,6 +217,122 @@ namespace BlueTeamProject
             adapter.InsertCommand.ExecuteNonQuery();
             cmd.Dispose();
             conn.Close();
+        }
+
+        public static List<Transaction> searchTransactionById(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where transaction_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByItem(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where item_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByUser(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where item_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByDate(DateTime date)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where datetime=" + date;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
         }
     }
 }

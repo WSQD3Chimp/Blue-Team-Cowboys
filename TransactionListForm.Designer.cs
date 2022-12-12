@@ -53,6 +53,7 @@
             this.TransactionListView.Size = new System.Drawing.Size(868, 591);
             this.TransactionListView.TabIndex = 50;
             this.TransactionListView.UseCompatibleStateImageBehavior = false;
+            this.TransactionListView.SelectedIndexChanged += new System.EventHandler(this.TransactionListView_SelectedIndexChanged);
             // 
             // FilterUser
             // 
@@ -69,6 +70,7 @@
             this.FilterUser.TabIndex = 49;
             this.FilterUser.Text = "User";
             this.FilterUser.UseVisualStyleBackColor = false;
+            this.FilterUser.Click += new System.EventHandler(this.FilterUser_Click);
             // 
             // FilterItemID
             // 
@@ -85,6 +87,7 @@
             this.FilterItemID.TabIndex = 48;
             this.FilterItemID.Text = "Item ID";
             this.FilterItemID.UseVisualStyleBackColor = false;
+            this.FilterItemID.Click += new System.EventHandler(this.FilterItemID_Click);
             // 
             // FilterOperation
             // 
@@ -101,6 +104,7 @@
             this.FilterOperation.TabIndex = 47;
             this.FilterOperation.Text = "Operation";
             this.FilterOperation.UseVisualStyleBackColor = false;
+            this.FilterOperation.Click += new System.EventHandler(this.FilterOperation_Click);
             // 
             // FilterTransactionID
             // 
@@ -117,6 +121,7 @@
             this.FilterTransactionID.TabIndex = 46;
             this.FilterTransactionID.Text = "Transaction ID";
             this.FilterTransactionID.UseVisualStyleBackColor = false;
+            this.FilterTransactionID.Click += new System.EventHandler(this.FilterTransactionID_Click);
             // 
             // FilterDate
             // 
@@ -133,6 +138,7 @@
             this.FilterDate.TabIndex = 45;
             this.FilterDate.Text = "Date (yy/mm/dd)";
             this.FilterDate.UseVisualStyleBackColor = false;
+            this.FilterDate.Click += new System.EventHandler(this.FilterDate_Click);
             // 
             // QueryTransactionList
             // 
@@ -183,6 +189,7 @@
             this.ViewTransaction.TabIndex = 41;
             this.ViewTransaction.Text = "View Selected Transaction";
             this.ViewTransaction.UseVisualStyleBackColor = false;
+            this.ViewTransaction.Click += new System.EventHandler(this.ViewTransaction_Click);
             // 
             // ExportTransaction
             // 
