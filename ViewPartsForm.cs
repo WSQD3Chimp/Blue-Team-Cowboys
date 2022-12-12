@@ -56,5 +56,18 @@ namespace BlueTeamProject
 
             }
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddItemViewParts_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var aP = new AddPartForm();
+            aP.FormClosed += (s, args) => this.Close();
+            aP.Show();
+        }
     }
 }

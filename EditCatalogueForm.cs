@@ -22,6 +22,7 @@ namespace BlueTeamProject
         public EditCatalogueForm()
         {
             InitializeComponent();
+            listView1.FullRowSelect = true;
         }
 
         private void EditCatalogueForm_Load(object sender, EventArgs e)
@@ -69,12 +70,28 @@ namespace BlueTeamProject
 
         private void DeleteItemsCatalogue_Click(object sender, EventArgs e)
         {
-            //if (listView1.CheckedItems.Count > 0)
-            //{
-            //    listView1.Items.Remove(listView1.CheckedItems[0]);
-            //    int id = Int32.Parse(listView1.SelectedItems[0].Text);
-            //    cmd = new SqlCommand("delete from Item where id=" + id, con);
-            //}
+                try
+                {
+                    int item = Int32.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+                    con.Open();
+                    cmd = new SqlCommand("Delete Item where item_id = " + item, con);
+                    cmd.ExecuteNonQuery();
+                    if(MessageBox.Show("are you sure you wish to delete?", "DELETE",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning)==DialogResult.OK)
+                    {
+                        if(cmd.ExecuteNonQuery() > 0)
+                        {
+                            MessageBox.Show("Deleted Successfully");
+
+                            listView1.CheckedItems[0].Remove();
+                        }
+                    }
+                }
+                catch(Exception ez)
+                {
+                    MessageBox.Show(ez.Message);
+                }
+            con.Close();
+
         }
 
         private void GoBackEditCatalogue_Click(object sender, EventArgs e)

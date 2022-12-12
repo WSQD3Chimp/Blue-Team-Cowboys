@@ -135,6 +135,7 @@
             this.SaveChangesEditItem.TabIndex = 61;
             this.SaveChangesEditItem.Text = "Save Changes";
             this.SaveChangesEditItem.UseVisualStyleBackColor = false;
+            this.SaveChangesEditItem.Click += new System.EventHandler(this.SaveChangesEditItem_Click);
             // 
             // GoBackEditItem
             // 
@@ -152,6 +153,7 @@
             this.GoBackEditItem.TabIndex = 60;
             this.GoBackEditItem.Text = "Go Back";
             this.GoBackEditItem.UseVisualStyleBackColor = false;
+            this.GoBackEditItem.Click += new System.EventHandler(this.GoBackEditItem_Click);
             // 
             // EditItemForm
             // 
@@ -169,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Name = "EditItemForm";
             this.Text = "EditItemForm";
+            this.Load += new System.EventHandler(this.EditItemForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

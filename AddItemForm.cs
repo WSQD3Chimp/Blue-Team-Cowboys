@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BlueTeamProject
 {
@@ -83,7 +84,10 @@ namespace BlueTeamProject
                 editCatalog.FormClosed += (s, args) => this.Close();
                 editCatalog.Show();
 
-                MessageBox.Show("DATA INSERTED :>");
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    MessageBox.Show("Inserted Successfully");
+                }
 
             } catch(Exception ez) {
                 

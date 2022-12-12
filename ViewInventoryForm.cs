@@ -25,6 +25,7 @@ namespace BlueTeamProject
         public ViewInventoryForm()
         {
             InitializeComponent();
+            ViewInventoryListView.FullRowSelect = true;
         }
 
         private void ViewInventoryListView_SelectedIndexChanged(object sender, EventArgs e)
