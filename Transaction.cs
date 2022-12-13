@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlueTeamProject
 {
-    public class Transaction
+    internal class Transaction
     {
         public int transaction_id { get; set; }
         public int account_id { get; set; }

@@ -43,7 +43,7 @@ namespace BlueTeamProject
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var transactions = new TransactionListForm(DBController.viewTransactions());
+            var transactions = new TransactionListForm();
             transactions.FormClosed += (s, args) => this.Close();
             transactions.Show();
         }
