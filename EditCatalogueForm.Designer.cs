@@ -38,7 +38,6 @@
             // listView1
             // 
             this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.listView1.CheckBoxes = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(19, 90);
             this.listView1.Name = "listView1";

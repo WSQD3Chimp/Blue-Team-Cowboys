@@ -6,7 +6,7 @@ using System.Data;
 namespace BlueTeamProject
 {
     internal class DBController
-        {
+    {
         static string constr;
         static SqlConnection conn;
 
@@ -25,7 +25,7 @@ namespace BlueTeamProject
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
 
-            sql = "insert into [dbo].[Account](username, password_hash, security1_hash, security2_hash, security3_hash, isManager) values('"+username+"', '"+password_hash+"', '"+security1_hash+"', '"+security2_hash+"', '"+security3_hash+"', "+isManager+")";
+            sql = "insert into [dbo].[Account](username, password_hash, security1_hash, security2_hash, security3_hash, isManager) values('" + username + "', '" + password_hash + "', '" + security1_hash + "', '" + security2_hash + "', '" + security3_hash + "', " + isManager + ")";
             cmd = new SqlCommand(sql, conn);
             adapter.InsertCommand = new SqlCommand(sql, conn);
             adapter.InsertCommand.ExecuteNonQuery();
@@ -67,7 +67,7 @@ namespace BlueTeamProject
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
 
-            sql = "update [dbo].[Account] set password_hash='"+password_hash+"' where username='"+username+"'";
+            sql = "update [dbo].[Account] set password_hash='" + password_hash + "' where username='" + username + "'";
             cmd = new SqlCommand(sql, conn);
             adapter.InsertCommand = new SqlCommand(sql, conn);
             adapter.InsertCommand.ExecuteNonQuery();
@@ -82,7 +82,7 @@ namespace BlueTeamProject
             SqlDataAdapter adapter = new SqlDataAdapter();
             string sql;
 
-            sql = "insert into [dbo].[Item](item_name, item_minimum, item_units, unit_price, manufacturer, description, isManchine) values('"+item_name+"','"+ item_minimum+"', '"+item_units+"', '"+unit_price+"', '"+manufacturer+"', '"+description+"', "+isManchine+")";
+            sql = "insert into [dbo].[Item](item_name, item_minimum, item_units, unit_price, manufacturer, description, isManchine) values('" + item_name + "','" + item_minimum + "', '" + item_units + "', '" + unit_price + "', '" + manufacturer + "', '" + description + "', " + isManchine + ")";
             cmd = new SqlCommand(sql, conn);
             adapter.InsertCommand = new SqlCommand(sql, conn);
             adapter.InsertCommand.ExecuteNonQuery();
@@ -98,12 +98,12 @@ namespace BlueTeamProject
 
             string sql;
             Item item = new Item();
-            sql = "Select * from [dbo].[Item] where id="+id;
-            cmd=new SqlCommand(sql, conn);
+            sql = "Select * from [dbo].[Item] where id=" + id;
+            cmd = new SqlCommand(sql, conn);
             reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                item.id = id;    
+                item.id = id;
                 item.item_minimum = reader.GetDecimal(1);
                 item.item_units = reader.GetDecimal(2);
                 item.item_price = reader.GetDecimal(3);
@@ -114,7 +114,7 @@ namespace BlueTeamProject
             }
             reader.Close();
             cmd.Dispose();
-            conn.Close ();
+            conn.Close();
             return item;
         }
 
@@ -148,6 +148,8 @@ namespace BlueTeamProject
             conn.Close();
             return items;
         }
+
+
 
         public static Transaction viewTransaction(int id)
         {
@@ -217,6 +219,123 @@ namespace BlueTeamProject
             adapter.InsertCommand.ExecuteNonQuery();
             cmd.Dispose();
             conn.Close();
+
+        }
+
+        public static List<Transaction> searchTransactionById(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where transaction_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByItem(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where item_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByUser(int id)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where item_id=" + id;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
+        }
+
+        public static List<Transaction> searchTransactionByDate(DateTime date)
+        {
+            Connect();
+            SqlCommand cmd;
+            SqlDataReader reader;
+
+            string sql;
+            List<Transaction> transactions = new List<Transaction>();
+            sql = "Select * from [dbo].[Transactions] where datetime=" + date;
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            int i = 0;
+            while (reader.Read())
+            {
+                transactions.Insert(i, new Transaction());
+                transactions[i].transaction_id = reader.GetInt32(0);
+                transactions[i].account_id = reader.GetInt32(1);
+                transactions[i].item_id = reader.GetInt32(2);
+                transactions[i].operation_type = reader.GetString(3);
+                transactions[i].unit_change = reader.GetDecimal(4);
+                transactions[i].date = reader.GetDateTime(5);
+                i++;
+            }
+            reader.Close();
+            cmd.Dispose();
+            conn.Close();
+            return transactions;
         }
     }
 }

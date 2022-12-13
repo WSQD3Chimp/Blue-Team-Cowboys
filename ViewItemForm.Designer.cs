@@ -73,6 +73,7 @@
             this.FlyingValueAddItem.Size = new System.Drawing.Size(118, 38);
             this.FlyingValueAddItem.TabIndex = 49;
             this.FlyingValueAddItem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FlyingValueAddItem.TextChanged += new System.EventHandler(this.FlyingValueAddItem_TextChanged);
             // 
             // IncrementViewItem
             // 
@@ -90,6 +91,7 @@
             this.IncrementViewItem.TabIndex = 48;
             this.IncrementViewItem.Text = "+";
             this.IncrementViewItem.UseVisualStyleBackColor = false;
+            this.IncrementViewItem.Click += new System.EventHandler(this.IncrementViewItem_Click);
             // 
             // DecrementViewItem
             // 
@@ -107,6 +109,7 @@
             this.DecrementViewItem.TabIndex = 47;
             this.DecrementViewItem.Text = "-";
             this.DecrementViewItem.UseVisualStyleBackColor = false;
+            this.DecrementViewItem.Click += new System.EventHandler(this.DecrementViewItem_Click);
             // 
             // ViewPartsViewItem
             // 
@@ -124,6 +127,7 @@
             this.ViewPartsViewItem.TabIndex = 46;
             this.ViewPartsViewItem.Text = "View Parts";
             this.ViewPartsViewItem.UseVisualStyleBackColor = false;
+            this.ViewPartsViewItem.Click += new System.EventHandler(this.ViewPartsViewItem_Click);
             // 
             // EditItemViewItem
             // 
@@ -141,6 +145,7 @@
             this.EditItemViewItem.TabIndex = 45;
             this.EditItemViewItem.Text = "Edit Item";
             this.EditItemViewItem.UseVisualStyleBackColor = false;
+            this.EditItemViewItem.Click += new System.EventHandler(this.EditItemViewItem_Click);
             // 
             // SaveChangesViewItem
             // 
@@ -158,6 +163,7 @@
             this.SaveChangesViewItem.TabIndex = 44;
             this.SaveChangesViewItem.Text = "Save Changes";
             this.SaveChangesViewItem.UseVisualStyleBackColor = false;
+            this.SaveChangesViewItem.Click += new System.EventHandler(this.SaveChangesViewItem_Click);
             // 
             // GoBackViewItem
             // 
@@ -175,6 +181,7 @@
             this.GoBackViewItem.TabIndex = 43;
             this.GoBackViewItem.Text = "Go Back";
             this.GoBackViewItem.UseVisualStyleBackColor = false;
+            this.GoBackViewItem.Click += new System.EventHandler(this.GoBackViewItem_Click);
             // 
             // DescriptionText
             // 
