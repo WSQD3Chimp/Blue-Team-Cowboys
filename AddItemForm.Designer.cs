@@ -321,7 +321,6 @@
             this.GoBackAddItem.TabIndex = 45;
             this.GoBackAddItem.Text = "Go Back";
             this.GoBackAddItem.UseVisualStyleBackColor = false;
-            this.GoBackAddItem.Click += new System.EventHandler(this.GoBackAddItem_Click);
             // 
             // AddItemForm
             // 

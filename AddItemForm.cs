@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BlueTeamProject
 {
@@ -74,20 +73,11 @@ namespace BlueTeamProject
                 con.Open();
                 cmd = new SqlCommand("SET IDENTITY_INSERT[dbo].[Item] ON",con);
                 cmd.ExecuteNonQuery();
-                cmd = new SqlCommand("INSERT INTO item (item_id, item_minimum, item_units, unit_price, manufacturer, item_name, description, isMachine) values('" + ItemIDAddItem.Text + "','" + MinimumUnitsAddItem.Text + "', '" + 1 + "' , '" + PriceAddItem.Text + "', '" + ManufacturerAddItem.Text + "', '" + ItemNameAddItem.Text + "' , '" + DescriptionAddItem.Text + "', '"  + check + "')", con);
+                cmd = new SqlCommand("INSERT INTO item (item_id, item_minimum, item_units, unit_price, manufacturer, item_name, description, isMachine) values('" + ItemIDAddItem.Text + "','" + MinimumUnitsAddItem.Text + "', '" + 1 + "' , '" + PriceAddItem.Text + "', '" + ManufacturerAddItem + "', '" + ItemNameAddItem.Text + "' , '" + DescriptionAddItem.Text + "', '"  + check + "')", con);
                 cmd.ExecuteNonQuery();
                 cmd = new SqlCommand("SET IDENTITY_INSERT[dbo].[Item] OFF",con);
                 cmd.ExecuteNonQuery();
-
-                this.Hide();
-                var editCatalog = new EditCatalogueForm();
-                editCatalog.FormClosed += (s, args) => this.Close();
-                editCatalog.Show();
-
-                if (cmd.ExecuteNonQuery() > 0)
-                {
-                    MessageBox.Show("Inserted Successfully");
-                }
+                MessageBox.Show("DATA INSERTED :>");
 
             } catch(Exception ez) {
                 
@@ -97,14 +87,6 @@ namespace BlueTeamProject
 
             con.Close();
             
-        }
-
-        private void GoBackAddItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var editCatalog = new EditCatalogueForm();
-            editCatalog.FormClosed += (s, args) => this.Close();
-            editCatalog.Show();
         }
     }
 }

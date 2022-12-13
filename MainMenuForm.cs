@@ -34,12 +34,12 @@ namespace BlueTeamProject
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var Vi = new ViewInventoryForm();
-            Vi.FormClosed += (s, args) => this.Close();
+            ViewInventoryForm Vi = new ViewInventoryForm();
             Vi.Show();
-        }
 
+            //AddItemForm a1 = new AddItemForm();
+            //a1.Show();
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();

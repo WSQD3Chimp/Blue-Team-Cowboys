@@ -25,16 +25,13 @@ namespace BlueTeamProject
         public ViewInventoryForm()
         {
             InitializeComponent();
-            ViewInventoryListView.FullRowSelect = true;
         }
 
         private void ViewInventoryListView_SelectedIndexChanged(object sender, EventArgs e)
         {
             int id = Int32.Parse(ViewInventoryListView.SelectedItems[0].Text);
-            this.Hide();
-            var vI = new ViewItemForm(id);
-            vI.FormClosed += (s, args) => this.Close();
-            vI.Show();
+            ViewItemForm viewitem = new ViewItemForm(id);
+            viewitem.Show();
         }
 
         private void ViewInventoryForm_Load(object sender, EventArgs e)
@@ -45,7 +42,7 @@ namespace BlueTeamProject
             ViewInventoryListView.View = View.Details;
 
             con.Open();
-            cmd = new SqlCommand("select item_id, item_name, description from Item", con);
+            cmd = new SqlCommand("select * from Item", con);
 
             sqlDataAdapter = new SqlDataAdapter(cmd);
             dataSet = new DataSet();
@@ -68,17 +65,13 @@ namespace BlueTeamProject
 
         private void GoBackViewInventory_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var mm = new MainMenuForm(true);// gotta fix this for isnt man
-            mm.FormClosed += (s, args) => this.Close();
-            mm.Show();
+            MainMenuForm m1 = new MainMenuForm(true);
+            m1.Show();
         }
 
         private void EditCatalogue_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var editCatalogue = new EditCatalogueForm();
-            editCatalogue.FormClosed += (s, args) => this.Close();
+            EditCatalogueForm editCatalogue = new EditCatalogueForm();
             editCatalogue.Show();
         }
     }

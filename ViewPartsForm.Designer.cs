@@ -44,7 +44,6 @@
             this.listView1.Size = new System.Drawing.Size(1233, 581);
             this.listView1.TabIndex = 34;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -64,7 +63,7 @@
             this.AddItemViewParts.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.AddItemViewParts.FlatAppearance.BorderSize = 0;
             this.AddItemViewParts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddItemViewParts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.AddItemViewParts.Font = new System.Drawing.Font("Inter", 14.25F);
             this.AddItemViewParts.ForeColor = System.Drawing.Color.White;
             this.AddItemViewParts.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.AddItemViewParts.Location = new System.Drawing.Point(774, 15);
@@ -73,7 +72,6 @@
             this.AddItemViewParts.TabIndex = 32;
             this.AddItemViewParts.Text = "Add Item";
             this.AddItemViewParts.UseVisualStyleBackColor = false;
-            this.AddItemViewParts.Click += new System.EventHandler(this.AddItemViewParts_Click);
             // 
             // DeleteItemsViewParts
             // 
@@ -82,7 +80,7 @@
             this.DeleteItemsViewParts.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.DeleteItemsViewParts.FlatAppearance.BorderSize = 0;
             this.DeleteItemsViewParts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DeleteItemsViewParts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.DeleteItemsViewParts.Font = new System.Drawing.Font("Inter", 12.25F);
             this.DeleteItemsViewParts.ForeColor = System.Drawing.Color.White;
             this.DeleteItemsViewParts.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DeleteItemsViewParts.Location = new System.Drawing.Point(922, 15);
@@ -99,7 +97,7 @@
             this.GoBackViewParts.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.GoBackViewParts.FlatAppearance.BorderSize = 0;
             this.GoBackViewParts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBackViewParts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.GoBackViewParts.Font = new System.Drawing.Font("Inter", 14.25F);
             this.GoBackViewParts.ForeColor = System.Drawing.Color.White;
             this.GoBackViewParts.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.GoBackViewParts.Location = new System.Drawing.Point(1122, 15);
